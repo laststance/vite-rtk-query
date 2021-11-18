@@ -3,7 +3,7 @@
 This is the [Vite](https://vitejs.dev/) template for [Redux-toolkit](https://redux-toolkit.js.org/).  
 Extending some essential tools set up(ESLint, Jest, TypeScript etc) from [vite-react-ts-extended](https://github.com/laststance/vite-react-ts-extended)
 
-All npm package are keeping least release version powered by [Depfu](https://depfu.com/),
+All npm package are keeping least release version powered by [Depfu](https://depfu.com/).
 
 # Installation
 
