@@ -13,7 +13,7 @@
     "prettier": "prettier --write src/**/*.css .github/**/*.yml package.json .eslintrc index.html tsconfig.json README.md"
   },
   "dependencies": {
-    "@reduxjs/toolkit": "^1.7.0-beta.1",
+    "@reduxjs/toolkit": "^1.7.1",
     "react": "^18.0.0-beta-fdc1d617a-20211118",
     "react-dom": "^18.0.0-beta-fdc1d617a-20211118",
     "react-redux": "^8.0.0-alpha.1"
