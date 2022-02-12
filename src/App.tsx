@@ -1,58 +1,81 @@
-import React from 'react'
+import axios from 'axios'
+import React, { useEffect, useState } from 'react'
 
-import { Counter } from './features/counter/Counter'
 import logo from './logo.svg'
+
 import './App.css'
 
-function App() {
+type DocsList = Array<{ name: string; url: string }>
+
+const App: React.FC = () => {
+  const [count, setCount] = useState(0)
+  const [docsList, setDocsList] = useState<DocsList>([])
+
+  useEffect(() => {
+    axios
+      .get('./docs_list')
+      .then(({ data }) => {
+        setDocsList(data)
+      })
+      .catch()
+  }, [])
+
   return (
-    <div className="App">
+    <main className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <Counter />
+        <p>Hello Vite + React!</p>
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          <button
+            type="button"
+            className="h-26 w-52 px-4 py-3 my-4 border border-white border-solid rounded"
+            onClick={() => setCount(count + 1)}
+          >
+            count is: {count}
+          </button>
         </p>
-        <span>
-          <span>Learn </span>
+        <p>
+          Edit <code>App.tsx</code> and save to test HMR updates.
+        </p>
+        <p></p>
+        <p>
           <a
             className="App-link"
-            href="https://reactjs.org/"
+            href="https://reactjs.org"
             target="_blank"
             rel="noopener noreferrer"
           >
-            React
+            Learn React
           </a>
-          <span>, </span>
+          {' | '}
           <a
             className="App-link"
-            href="https://redux.js.org/"
+            href="https://vitejs.dev/guide/features.html"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Redux
+            Vite Docs
           </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux-toolkit.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux Toolkit
-          </a>
-          ,<span> and </span>
-          <a
-            className="App-link"
-            href="https://react-redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React Redux
-          </a>
-        </span>
+          {docsList.length
+            ? docsList.map((v, i) => {
+                return (
+                  <span key={i}>
+                    {' | '}
+                    <a
+                      className="App-link"
+                      href={v.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {v.name}
+                    </a>
+                  </span>
+                )
+              })
+            : false}
+        </p>
       </header>
-    </div>
+    </main>
   )
 }
 

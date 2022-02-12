@@ -1,16 +1,38 @@
-import { render } from '@testing-library/react'
+import { waitFor } from '@testing-library/dom'
+import { render, screen } from '@testing-library/react'
+import userEvent from '@testing-library/user-event'
 import React from 'react'
-import { Provider } from 'react-redux'
+import { act } from 'react-dom/test-utils'
 
 import App from './App'
-import { store } from './app/store'
 
-test('renders learn react link', () => {
-  const { getByText } = render(
-    <Provider store={store}>
-      <App />
-    </Provider>
-  )
+test('Show App Component', () => {
+  render(<App />)
 
-  expect(getByText(/learn/i)).toBeInTheDocument()
+  expect(screen.getByText('Hello Vite + React!')).toBeInTheDocument()
+})
+
+test('Working Counter', () => {
+  const { getByText } = render(<App />)
+  expect(getByText('count is: 0')).toBeInTheDocument()
+
+  const button = getByText(/count is: \d/)
+
+  act(() => userEvent.click(button))
+  expect(getByText('count is: 1')).toBeInTheDocument()
+
+  act(() => userEvent.click(button))
+  expect(getByText('count is: 2')).toBeInTheDocument()
+
+  act(() => userEvent.click(button))
+  expect(getByText('count is: 3')).toBeInTheDocument()
+})
+
+test('working msw', async () => {
+  render(<App />)
+  await waitFor(() => {
+    expect(screen.getByText('Axios')).toBeInTheDocument()
+    expect(screen.getByText('MSW')).toBeInTheDocument()
+    expect(screen.getByText('Tailwind CSS')).toBeInTheDocument()
+  })
 })

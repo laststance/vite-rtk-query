@@ -1,8 +1,8 @@
 {
-  "projectName": "vite-react-ts-extended",
+  "projectName": "vite-rtk-query",
   "projectOwner": "laststance",
   "repoType": "github",
-  "repoHost": "https://github.com/laststance/vite-react-ts-extended",
+  "repoHost": "https://github.com/laststance/vite-rtk-query",
   "files": [
     "README.md"
   ],
