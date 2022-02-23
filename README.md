@@ -1,13 +1,17 @@
 # vite-rtk-query [![Typecheck](https://github.com/laststance/vite-rtk-query/actions/workflows/typecheck.yml/badge.svg)](https://github.com/laststance/vite-rtk-query/actions/workflows/typecheck.yml) [![Test](https://github.com/laststance/vite-rtk-query/actions/workflows/test.yml/badge.svg)](https://github.com/laststance/vite-rtk-query/actions/workflows/test.yml) [![Build](https://github.com/laststance/vite-rtk-query/actions/workflows/build.yml/badge.svg)](https://github.com/laststance/vite-rtk-query/actions/workflows/build.yml) [![Lint](https://github.com/laststance/vite-rtk-query/actions/workflows/lint.yml/badge.svg)](https://github.com/laststance/vite-rtk-query/actions/workflows/lint.yml) [![Depfu](https://badges.depfu.com/badges/6c7775918ccc8647160750e168617a65/overview.svg)](https://depfu.com/github/laststance/vite-rtk-query?project_id=32682)
 
-> My CRA alternative.  
-> Create plain and lightweight React+TS programming environment with familiar pre-setup tooling  
-> eslint/prettier, jest/TS/react-testing-library/msw, tailwindcss, CI.
+> Vite RTK Query temptelte.  
+> This include React+TS with familiar pre-setup tooling  
+> Redux Toolkit, RTK Query, eslint/prettier, jest/TS/react-testing-library/MSW, tailwindcss, GitHub Actions CI.
 
 ## [Trying this Online!](https://stackblitz.com/github/laststance/vite-rtk-query?file=src%2FApp.tsx)
 
+<img src="https://digital3.nyc3.cdn.digitaloceanspaces.com/rtk.png" />
+
 This is the official [Vite](https://vitejs.dev/) template(`npm init vite@latest myapp -- --template react-ts`) and some extended setup.
 
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+- [RTK Query](https://redux-toolkit.js.org/rtk-query/overview)
 - [eslint-typescript](https://github.com/typescript-eslint/typescript-eslint) and [Prettier](https://prettier.io/) integration. Rules are 100% my personal setup 💅
 - [jest](https://jestjs.io/), [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/), [react-hooks-testing-library](https://github.com/testing-library/react-hooks-testing-library), [MSW](https://mswjs.io/)
 - [tailwindcss](https://tailwindcss.com/)
@@ -34,19 +38,6 @@ cd myapp
 npm install
 npm run dev
 ```
-
-# Background
-
-The evolution of the React framework is accelerating more than ever before.  
-[Next.js](https://nextjs.org/), [Remix](https://remix.run/), [RedwoodJS](https://redwoodjs.com/), [Gatsby](https://www.gatsbyjs.com/), [Blitz](https://blitzjs.com/) etc...
-
-Ahthough I still need plain React programming starter some reason. (.e.g Demo, Experiment like Deep Dive React Core.)  
-So far, [create-react-app](https://github.com/facebook/create-react-app) **was** it.  
-In short, [create-react-app](https://github.com/facebook/create-react-app) development couldn't say active. Please read the [Issue](https://github.com/facebook/create-react-app/issues/11180) in details.
-
-So I created an alternative to [create-react-app](https://github.com/facebook/create-react-app) for myself, based on [Vite](https://github.com/facebook/create-react-app).  
-This project contains my very opinionted setup,  
-but I hope it will be a useful tool for people who have similar needs to mine! 😀
 
 # License
 
