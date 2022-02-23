@@ -1,24 +1,12 @@
-import axios from 'axios'
-import React, { useEffect, useState } from 'react'
-
-import { Counter } from './features/counter/Counter'
-import logo from './logo.svg'
+import React from 'react'
 
 import './App.css'
-
-type DocsList = Array<{ name: string; url: string }>
+import { Counter } from './features/counter/Counter'
+import logo from './logo.svg'
+import { useGetDocsListQuery } from './services/docs'
 
 const App: React.FC = () => {
-  const [docsList, setDocsList] = useState<DocsList>([])
-
-  useEffect(() => {
-    axios
-      .get('./docs_list')
-      .then(({ data }) => {
-        setDocsList(data)
-      })
-      .catch()
-  }, [])
+  const { data, error, isLoading } = useGetDocsListQuery()
 
   return (
     <main className="App">
@@ -29,7 +17,6 @@ const App: React.FC = () => {
         <p>
           Edit <code>App.tsx</code> and save to test HMR updates.
         </p>
-        <p></p>
         <p>
           <a
             className="App-link"
@@ -48,23 +35,29 @@ const App: React.FC = () => {
           >
             Vite Docs
           </a>
-          {docsList.length
-            ? docsList.map((v, i) => {
-                return (
-                  <span key={i}>
-                    {' | '}
-                    <a
-                      className="App-link"
-                      href={v.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {v.name}
-                    </a>
-                  </span>
-                )
-              })
-            : false}
+          {error ? (
+            <>Oh no, there was an error</>
+          ) : isLoading ? (
+            <>Loading...</>
+          ) : data ? (
+            data.map((v, i) => {
+              return (
+                <span key={i}>
+                  {' | '}
+                  <a
+                    className="App-link"
+                    href={v.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {v.name}
+                  </a>
+                </span>
+              )
+            })
+          ) : (
+            false
+          )}
         </p>
       </header>
     </main>

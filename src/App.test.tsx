@@ -38,7 +38,7 @@ test('Working Counter', () => {
   expect(getByText('count is: 3')).toBeInTheDocument()
 })
 
-test('working msw', async () => {
+test('working with msw', async () => {
   render(
     <Provider store={store}>
       <App />
