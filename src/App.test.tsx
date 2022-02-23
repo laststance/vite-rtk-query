@@ -45,7 +45,7 @@ test('working with msw', async () => {
     </Provider>
   )
   await waitFor(() => {
-    expect(screen.getByText('Axios')).toBeInTheDocument()
+    expect(screen.getByText('Redux Toolkit')).toBeInTheDocument()
     expect(screen.getByText('MSW')).toBeInTheDocument()
     expect(screen.getByText('Tailwind CSS')).toBeInTheDocument()
   })
