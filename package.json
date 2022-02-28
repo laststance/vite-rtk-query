@@ -15,7 +15,7 @@
     "validate": "./scripts/validate"
   },
   "dependencies": {
-    "@reduxjs/toolkit": "^1.7.2",
+    "@reduxjs/toolkit": "^1.8.0",
     "react": "^18.0.0-rc.0",
     "react-dom": "^18.0.0-rc.0",
     "react-redux": "^7.2.6"
