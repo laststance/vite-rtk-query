@@ -1,13 +1,14 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 import { Provider } from 'react-redux'
 
 import './index.css'
 import App from './App'
 import { store } from './store'
 
-// @ts-ignore v18 @types not coming yet
-const root = ReactDOM.createRoot(document.getElementById('root'))
+const root = ReactDOM.createRoot(
+  document.getElementById('root') as HTMLDivElement
+)
 
 if (process.env.NODE_ENV === 'development') {
   import('../mocks/browser')
