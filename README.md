@@ -4,7 +4,7 @@
 > This include React+TS with familiar pre-setup tooling  
 > Redux Toolkit, RTK Query, eslint/prettier, jest/TS/react-testing-library/MSW, tailwindcss, GitHub Actions CI.
 
-## [Trying this Online!](https://stackblitz.com/github/laststance/vite-rtk-query?file=src%2FApp.tsx)
+## [Trying this Online!](https://codesandbox.io/s/vite-rtk-query-ur6l64?file=/src/App.tsx)
 
 <img src="https://digital3.nyc3.cdn.digitaloceanspaces.com/rtk.png" />
 
