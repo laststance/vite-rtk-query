@@ -5,12 +5,12 @@ import counterReducer from './features/counter/counterSlice'
 import { docsApi } from './services/docs'
 
 export const store = configureStore({
+  middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware().concat(docsApi.middleware),
   reducer: {
     counter: counterReducer,
     [docsApi.reducerPath]: docsApi.reducer,
   },
-  middleware: (getDefaultMiddleware) =>
-    getDefaultMiddleware().concat(docsApi.middleware),
 })
 
 // Infer the `RootState` and `AppDispatch` types from the store itself
