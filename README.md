@@ -25,18 +25,31 @@ All npm package are keeping least release version powered by [Depfu](https://dep
 npx degit laststance/vite-rtk-query myapp
 ```
 
-```
-cd myapp
-yarn install
-yarn dev
-```
+### npm
 
-or npm
-
-```
+```sh
 cd myapp
 npm install
+npm run validate
 npm run dev
+```
+
+### pnpm
+
+```sh
+cd myapp
+pnpm i
+pnpm validate
+pnpm dev
+```
+
+### yarn
+
+```sh
+cd myapp
+yarn
+yarn validate
+yarn dev
 ```
 
 # License
