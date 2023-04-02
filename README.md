@@ -1,8 +1,8 @@
-# vite-rtk-query [![Typecheck](https://github.com/laststance/vite-rtk-query/actions/workflows/typecheck.yml/badge.svg)](https://github.com/laststance/vite-rtk-query/actions/workflows/typecheck.yml) [![Test](https://github.com/laststance/vite-rtk-query/actions/workflows/test.yml/badge.svg)](https://github.com/laststance/vite-rtk-query/actions/workflows/test.yml) [![Build](https://github.com/laststance/vite-rtk-query/actions/workflows/build.yml/badge.svg)](https://github.com/laststance/vite-rtk-query/actions/workflows/build.yml) [![Lint](https://github.com/laststance/vite-rtk-query/actions/workflows/lint.yml/badge.svg)](https://github.com/laststance/vite-rtk-query/actions/workflows/lint.yml) [![Depfu](https://badges.depfu.com/badges/6c7775918ccc8647160750e168617a65/overview.svg)](https://depfu.com/github/laststance/vite-rtk-query?project_id=32682)
+# vite-rtk-query [![Typecheck](https://github.com/laststance/vite-rtk-query/actions/workflows/typecheck.yml/badge.svg)](https://github.com/laststance/vite-rtk-query/actions/workflows/typecheck.yml) [![Test](https://github.com/laststance/vite-rtk-query/actions/workflows/test.yml/badge.svg)](https://github.com/laststance/vite-rtk-query/actions/workflows/test.yml) [![Build](https://github.com/laststance/vite-rtk-query/actions/workflows/build.yml/badge.svg)](https://github.com/laststance/vite-rtk-query/actions/workflows/build.yml) [![Lint](https://github.com/laststance/vite-rtk-query/actions/workflows/lint.yml/badge.svg)](https://github.com/laststance/vite-rtk-query/actions/workflows/lint.yml) [![Depfu](https://badges.depfu.com/badges/789201466fbf907f7780e2d8634ed1fb/overview.svg)](https://depfu.com/github/laststance/vite-rtk-query?project_id=38280)
 
 > Vite RTK Query temptelte.  
 > This include React+TS with familiar pre-setup tooling  
-> Redux Toolkit, RTK Query, eslint/prettier, jest/TS/react-testing-library/MSW, tailwindcss, GitHub Actions CI.
+> Redux Toolkit, RTK Query, eslint/prettier, Vitest/TS/react-testing-library/MSW, tailwindcss, GitHub Actions CI.
 
 ## [Trying this Online!](https://codesandbox.io/s/vite-rtk-query-ur6l64?file=/src/App.tsx)
 
@@ -13,7 +13,7 @@ This is the official [Vite](https://vitejs.dev/) template(`npm init vite@latest 
 - [Redux Toolkit](https://redux-toolkit.js.org/)
 - [RTK Query](https://redux-toolkit.js.org/rtk-query/overview)
 - [eslint-typescript](https://github.com/typescript-eslint/typescript-eslint) and [Prettier](https://prettier.io/) integration. Rules are 100% my personal setup 💅
-- [jest](https://jestjs.io/), [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/), [react-hooks-testing-library](https://github.com/testing-library/react-hooks-testing-library), [MSW](https://mswjs.io/)
+- [Vitest](https://vitest.dev/), [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/), [react-hooks-testing-library](https://github.com/testing-library/react-hooks-testing-library), [MSW](https://mswjs.io/)
 - [tailwindcss](https://tailwindcss.com/)
 - [Github Actions](https://github.com/features/actions)
 
