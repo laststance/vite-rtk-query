@@ -2,7 +2,7 @@
 
 > Vite RTK Query temptelte.  
 > This include React+TS with familiar pre-setup tooling  
-> Redux Toolkit, RTK Query, eslint/prettier, jest/TS/react-testing-library/MSW, tailwindcss, GitHub Actions CI.
+> Redux Toolkit, RTK Query, eslint/prettier, Vitest/TS/react-testing-library/MSW, tailwindcss, GitHub Actions CI.
 
 ## [Trying this Online!](https://codesandbox.io/s/vite-rtk-query-ur6l64?file=/src/App.tsx)
 
