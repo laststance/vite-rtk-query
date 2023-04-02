@@ -6,9 +6,7 @@ import './index.css'
 import App from './App'
 import { store } from './store'
 
-const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLDivElement
-)
+const root = ReactDOM.createRoot(document.getElementById('root')!)
 
 if (process.env.NODE_ENV === 'development') {
   import('../mocks/browser')

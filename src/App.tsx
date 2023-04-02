@@ -12,7 +12,7 @@ const App: React.FC = () => {
     <main className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React!</p>
+        <p>Hello Vite + RTK Query!</p>
         <Counter />
         <p>
           Edit <code>App.tsx</code> and save to test HMR updates.

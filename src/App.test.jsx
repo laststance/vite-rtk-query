@@ -14,7 +14,7 @@ test('Show App Component', () => {
     </Provider>
   )
 
-  expect(screen.getByText('Hello Vite + React!')).toBeInTheDocument()
+  expect(screen.getByText('Hello Vite + RTK Query!')).toBeInTheDocument()
 })
 
 test('Working Counter', async () => {
