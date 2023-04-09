@@ -1,6 +1,6 @@
 {
   "name": "vite-rtk-query",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "license": "MIT",
   "msw": {
     "workerDirectory": "public"
@@ -19,7 +19,7 @@
     "prettier": "prettier --write \"**/*.+(json|yml|css|md|mdx)\"",
     "clean": "rimraf node_modules package-lock.json dist",
     "validate": "./scripts/validate",
-    "remove:tailwind": "./scripts/remove_tailwind" 
+    "remove:tailwind": "./scripts/remove_tailwind"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",
