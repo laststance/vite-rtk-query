@@ -34,23 +34,7 @@ npm run validate
 npm run dev
 ```
 
-### pnpm
-
-```sh
-cd myapp
-pnpm i
-pnpm validate
-pnpm dev
-```
-
-### yarn
-
-```sh
-cd myapp
-yarn
-yarn validate
-yarn dev
-```
+If you don't need TailwindCSS, run `npm run remove:tailwind` after `npm install`.
 
 # License
 
