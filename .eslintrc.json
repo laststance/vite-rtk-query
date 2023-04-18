@@ -6,9 +6,7 @@
     "jest": true,
     "node": true
   },
-  "extends": [
-    "plugin:jsx-a11y/recommended"
-  ],
+  "extends": ["plugin:jsx-a11y/recommended"],
   "globals": {
     "JSX": "readonly"
   },
@@ -70,25 +68,15 @@
   },
   "settings": {
     "import/parsers": {
-      "@typescript-eslint/parser": [
-        ".ts",
-        ".tsx"
-      ]
+      "@typescript-eslint/parser": [".ts", ".tsx"]
     },
     "import/resolver": {
       "node": {
-        "extensions": [
-          ".js",
-          ".jsx",
-          ".ts",
-          ".tsx"
-        ]
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
       },
       "typescript": {
         "alwaysTryTypes": true,
-        "project": [
-          "tsconfig.json"
-        ]
+        "project": ["tsconfig.json"]
       }
     },
     "react": {

@@ -54,8 +54,6 @@ npm run serve           # launch server for production bundle in local
 npm run remove:tailwind # remove TailwindCSS
 ```
 
-
-
 # License
 
 MIT
