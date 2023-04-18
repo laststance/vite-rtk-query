@@ -9,7 +9,6 @@
     "start": "vite",
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview",
     "serve": "serve dist",
     "test": "vitest --run",
     "test:watch": "vitest",
