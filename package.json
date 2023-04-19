@@ -21,7 +21,7 @@
     "remove:tailwind": "./scripts/remove_tailwind"
   },
   "dependencies": {
-    "@reduxjs/toolkit": "^1.9.4",
+    "@reduxjs/toolkit": "^1.9.5",
     "ky": "^0.33.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
