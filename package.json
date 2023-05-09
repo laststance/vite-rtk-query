@@ -46,7 +46,7 @@
     "all-contributors-cli": "^6.25.0",
     "autoprefixer": "^10.4.14",
     "concurrently": "^8.0.1",
-    "eslint": "^8.39.0",
+    "eslint": "^8.40.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-config-typescript": "^3.0.0",
     "eslint-import-resolver-typescript": "^3.5.4",
