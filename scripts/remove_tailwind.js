@@ -39,7 +39,6 @@ function removeTailwind() {
     }
   }
 
-  tailwindPackages.push('postcss')
   if (tailwindPackages.length === 1) {
     console.log('TailwindCSS has already been removed.\n')
     exit()
