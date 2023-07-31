@@ -1,4 +1,4 @@
-# vite-rtk-query [![Typecheck](https://github.com/laststance/vite-rtk-query/actions/workflows/typecheck.yml/badge.svg)](https://github.com/laststance/vite-rtk-query/actions/workflows/typecheck.yml) [![Test](https://github.com/laststance/vite-rtk-query/actions/workflows/test.yml/badge.svg)](https://github.com/laststance/vite-rtk-query/actions/workflows/test.yml) [![Build](https://github.com/laststance/vite-rtk-query/actions/workflows/build.yml/badge.svg)](https://github.com/laststance/vite-rtk-query/actions/workflows/build.yml) [![Lint](https://github.com/laststance/vite-rtk-query/actions/workflows/lint.yml/badge.svg)](https://github.com/laststance/vite-rtk-query/actions/workflows/lint.yml) [![Depfu](https://badges.depfu.com/badges/789201466fbf907f7780e2d8634ed1fb/overview.svg)](https://depfu.com/github/laststance/vite-rtk-query?project_id=38280)
+# vite-rtk-query [![Typecheck](https://github.com/laststance/vite-rtk-query/actions/workflows/typecheck.yml/badge.svg)](https://github.com/laststance/vite-rtk-query/actions/workflows/typecheck.yml) [![Test](https://github.com/laststance/vite-rtk-query/actions/workflows/test.yml/badge.svg)](https://github.com/laststance/vite-rtk-query/actions/workflows/test.yml) [![Build](https://github.com/laststance/vite-rtk-query/actions/workflows/build.yml/badge.svg)](https://github.com/laststance/vite-rtk-query/actions/workflows/build.yml) [![Lint](https://github.com/laststance/vite-rtk-query/actions/workflows/lint.yml/badge.svg)](https://github.com/laststance/vite-rtk-query/actions/workflows/lint.yml)
 
 > Vite RTK Query temptelte.  
 > This include React+TS with familiar pre-setup tooling  
@@ -17,7 +17,7 @@ This is the official [Vite](https://vitejs.dev/) template(`npm init vite@latest 
 - [tailwindcss](https://tailwindcss.com/)
 - [Github Actions](https://github.com/features/actions)
 
-All npm package are keeping least release version powered by [Depfu](https://depfu.com/).
+All npm package are keeping least release version powered by [Renovate](https://github.com/renovatebot/renovate).
 
 # Installation
 
