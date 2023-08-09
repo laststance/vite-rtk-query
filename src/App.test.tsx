@@ -11,7 +11,7 @@ test('Show App Component', () => {
   render(
     <Provider store={store}>
       <App />
-    </Provider>
+    </Provider>,
   )
 
   expect(screen.getByText('Hello Vite + RTK Query!')).toBeInTheDocument()
@@ -22,7 +22,7 @@ test('Working Counter', async () => {
   const { getByText } = render(
     <Provider store={store}>
       <App />
-    </Provider>
+    </Provider>,
   )
   expect(getByText('count is: 0')).toBeInTheDocument()
 
@@ -42,7 +42,7 @@ test('working with msw', async () => {
   render(
     <Provider store={store}>
       <App />
-    </Provider>
+    </Provider>,
   )
   await waitFor(() => {
     expect(screen.getByText('Redux Toolkit')).toBeInTheDocument()

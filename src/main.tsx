@@ -17,13 +17,13 @@ if (process.env.NODE_ENV === 'development') {
       root.render(
         <Provider store={store}>
           <App />
-        </Provider>
+        </Provider>,
       )
     })
 } else {
   root.render(
     <Provider store={store}>
       <App />
-    </Provider>
+    </Provider>,
   )
 }
