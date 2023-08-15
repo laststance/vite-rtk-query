@@ -29,7 +29,7 @@ npx degit laststance/vite-rtk-query myapp
 
 ```sh
 cd myapp
-npm install
+npm install --force
 npm run validate
 npm run dev
 ```
