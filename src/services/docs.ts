@@ -6,7 +6,7 @@ import type { DocsList } from './types'
 // Define a service using a base URL and expected endpoints
 export const docsApi = createApi({
   baseQuery: fetchBaseQuery({
-    baseUrl: 'https://jsonplaceholder.com/api',
+    baseUrl: 'http://localhost:4000/api',
     fetchFn: (...args) => ky(...args),
   }),
   endpoints: (builder) => ({
