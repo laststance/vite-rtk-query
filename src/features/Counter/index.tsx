@@ -14,11 +14,11 @@ const Counter: React.FC = memo(() => {
   return (
     <main className={styles.container}>
       <header className={styles.header}>
-        <img src={logo} className={styles.logo} alt="logo" />
+        <img src={logo} className={styles.logo} alt="logo"/>
         <p>Hello Vite + Redux-Toolkit & RTK Query!</p>
       </header>
 
-      <section className="">
+      <section className={styles.buttonsection}>
         <button
           type="button"
           className={styles.button}
@@ -30,13 +30,15 @@ const Counter: React.FC = memo(() => {
 
         <button
           type="button"
-          className="h-26 my-4 w-52 rounded border border-solid border-white px-4 py-3"
+          className={styles.button}
           aria-label="Decrement value"
           onClick={() => dispatch(decrement())}
         >
           Decrement
         </button>
-        <div className="w-44">count is: {count}</div>
+      </section>
+      <section className={styles.countsection}>
+        <p>count is: {count}</p>
       </section>
     </main>
   )
