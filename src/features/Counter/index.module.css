@@ -3,7 +3,7 @@
   min-height: 100vh;
   width: 100%;
   display: flex;
-  gap: 30px;
+  gap: 40px;
   flex-direction: column;
   align-items: center;
   color: white;
@@ -11,13 +11,16 @@
 
 .header {
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   & p {
     font-size: 50px;
   }
 }
 
-.buttonsection {
+.buttonSection {
   display: flex;
   gap: 20px;
 }
@@ -39,8 +42,8 @@
   }
 }
 
-.countsection {
-  font-size: 38px;
+.countSection {
+  font-size: 44px;
   text-align: center;
 
   & p {
@@ -53,27 +56,23 @@
 }
 
 .logo {
-  height: 40vmin;
+  height: 50vmin;
   pointer-events: none;
 }
 
 
 @media (prefers-reduced-motion: no-preference) {
   .logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: logoSpin infinite 20s linear;
   }
 }
 
 
-@keyframes logo-spin {
+@keyframes logoSpin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
-
-.button {
-  font-size: calc(10px + 2vmin);
 }

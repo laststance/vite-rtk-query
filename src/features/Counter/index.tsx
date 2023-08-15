@@ -18,7 +18,7 @@ const Counter: React.FC = memo(() => {
         <p>Hello Vite + Redux-Toolkit & RTK Query!</p>
       </header>
 
-      <section className={styles.buttonsection}>
+      <section className={styles.buttonSection}>
         <button
           type="button"
           className={styles.button}
@@ -37,7 +37,7 @@ const Counter: React.FC = memo(() => {
           Decrement
         </button>
       </section>
-      <section className={styles.countsection}>
+      <section className={styles.countSection}>
         <p>count is: {count}</p>
       </section>
     </main>
