@@ -14,7 +14,7 @@ const Counter: React.FC = memo(() => {
   return (
     <main className={styles.container}>
       <header className={styles.header}>
-        <img src={logo} className={styles.logo} alt="logo"/>
+        <img src={logo} className={styles.logo} alt="logo" />
         <p>Hello Vite + Redux-Toolkit & RTK Query!</p>
       </header>
 
