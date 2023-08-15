@@ -14,7 +14,7 @@ export const handlers = [
       { name: 'MSW', url: 'https://mswjs.io/' },
       { name: 'Tailwind CSS', url: 'https://tailwindcss.com/' },
     ]
-    await sleep(2000)
+    await sleep(4000)
 
     return res(ctx.status(200), ctx.json(data))
   }),

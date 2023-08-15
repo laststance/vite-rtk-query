@@ -1,15 +1,16 @@
-import React, { memo } from 'react'
-import { useSelector, useDispatch } from 'react-redux'
+import React from 'react'
+import { Link } from 'react-router-dom'
 
+import { useAppSelector, useAppDispatch } from '../../hooks/redux'
 import type { RootState } from '../../store'
 
 import { decrement, increment } from './counterSlice'
 import styles from './index.module.css'
 import logo from './logo.svg'
 
-const Counter: React.FC = memo(() => {
-  const count = useSelector((state: RootState) => state.counter.value)
-  const dispatch = useDispatch()
+const Counter: React.FC = () => {
+  const count = useAppSelector((state: RootState) => state.counter.value)
+  const dispatch = useAppDispatch()
 
   return (
     <main className={styles.container}>
@@ -27,7 +28,6 @@ const Counter: React.FC = memo(() => {
         >
           Increment
         </button>
-
         <button
           type="button"
           className={styles.button}
@@ -40,8 +40,8 @@ const Counter: React.FC = memo(() => {
       <section className={styles.countSection}>
         <p>count is: {count}</p>
       </section>
+      <Link to="/doclist">DocList</Link>
     </main>
   )
-})
-Counter.displayName = 'Counter'
+}
 export default Counter

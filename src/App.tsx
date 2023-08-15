@@ -4,7 +4,7 @@ import { Routes, Route } from 'react-router-dom'
 import { HistoryRouter } from 'redux-first-history/rr6'
 
 import './features/Counter/index.module.css'
-import Counter from './features/Counter'
+import Counter from './features/Counter/index'
 import DocumentList from './features/DocumentList'
 import { history, store } from './store'
 
@@ -14,7 +14,7 @@ const App: React.FC = () => {
       <HistoryRouter history={history}>
         <Routes>
           <Route path="/" element={<Counter />} />
-          <Route path="/docslist" element={<DocumentList />} />
+          <Route path="/doclist" element={<DocumentList />} />
         </Routes>
       </HistoryRouter>
     </ReduxStoreProvider>
