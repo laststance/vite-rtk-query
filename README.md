@@ -2,13 +2,9 @@
 
 > Vite RTK Query temptelte.  
 > This include React+TS with familiar pre-setup tooling  
-> Redux Toolkit, RTK Query, eslint/prettier, Vitest/TS/react-testing-library/MSW, tailwindcss, GitHub Actions CI.
+> Redux Toolkit, RTK Query, React Router, eslint-config-ts-prefixer, Vitest/TS/react-testing-library/MSW, tailwindcss, CSS Modules GitHub Actions CI.
 
-## [Trying this Online!](https://codesandbox.io/s/vite-rtk-query-ur6l64?file=/src/App.tsx)
-
-<img src="https://digital3.nyc3.cdn.digitaloceanspaces.com/rtk.png" />
-
-This is the official [Vite](https://vitejs.dev/) template(`npm init vite@latest myapp -- --template react-ts`) and some extended setup.
+<img src="https://digital3.nyc3.cdn.digitaloceanspaces.com/vite-rtk-query.gif" />
 
 - [Redux Toolkit](https://redux-toolkit.js.org/)
 - [RTK Query](https://redux-toolkit.js.org/rtk-query/overview)
