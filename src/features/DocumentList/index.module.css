@@ -3,30 +3,36 @@
   min-height: 100vh;
   width: 100%;
   display: flex;
-  gap: 40px;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   color: white;
 }
 
+.error {
+  font-size: 30px;
+}
+
 .header {
+  position: fixed;
+  top: 20px;
   padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  & p {
-    font-size: 50px;
-  }
+  font-size: 50px;
 }
 
-.buttonSection {
+.documentList {
   display: flex;
-  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .button {
+  flex: 1 0 calc(33.3333% - 10px);
   color: white;
+  margin: 5px;
+  margin-top: 10px;
   font-size: 24px;
   padding: 14px 20px;
   border: 1px solid #fff;
@@ -42,35 +48,6 @@
   }
 }
 
-.countSection {
-  font-size: 44px;
-  text-align: center;
-
-  & p {
-    white-space: nowrap;
-  }
-}
-
 .link {
   color: #61dafb;
-}
-
-.logo {
-  height: 50vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .logo {
-    animation: logoSpin infinite 20s linear;
-  }
-}
-
-@keyframes logoSpin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

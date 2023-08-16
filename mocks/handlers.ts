@@ -13,8 +13,12 @@ export const handlers = [
       { name: 'Vitest', url: 'https://vitest.dev/' },
       { name: 'MSW', url: 'https://mswjs.io/' },
       { name: 'Tailwind CSS', url: 'https://tailwindcss.com/' },
+      {
+        name: 'CSS Modules',
+        url: 'https://github.com/css-modules/css-modules',
+      },
     ]
-    await sleep(4000)
+    await sleep(3000)
 
     return res(ctx.status(200), ctx.json(data))
   }),
