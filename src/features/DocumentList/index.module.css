@@ -20,7 +20,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 50px;
+
+  & h1 {
+    font-size: 50px;
+  }
 }
 
 .documentList {
@@ -49,5 +52,9 @@
 }
 
 .link {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 32px;
   color: #61dafb;
 }

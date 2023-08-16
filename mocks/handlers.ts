@@ -1,5 +1,7 @@
 import { rest } from 'msw'
 
+import { sleep } from '../src/utils/sleep'
+
 export const handlers = [
   rest.get('http://localhost:4000/api/docs_list', async (_req, res, ctx) => {
     const data = [
@@ -23,6 +25,3 @@ export const handlers = [
     return res(ctx.status(200), ctx.json(data))
   }),
 ]
-
-const sleep = (ms: number): Promise<void> =>
-  new Promise((resolve) => setTimeout(resolve, ms))

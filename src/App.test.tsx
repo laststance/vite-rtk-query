@@ -1,29 +1,20 @@
-import { waitFor } from '@testing-library/dom'
-import { render, screen } from '@testing-library/react'
+import { render, screen, waitFor } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import React from 'react'
-import { Provider } from 'react-redux'
 
 import App from './App'
-import { store } from './store'
 
 test('Show App Component', () => {
-  render(
-    <Provider store={store}>
-      <App />
-    </Provider>,
-  )
+  render(<App />)
 
-  expect(screen.getByText('Hello Vite + RTK Query!')).toBeInTheDocument()
+  expect(
+    screen.getByText('Hello Vite + Redux-Toolkit & RTK Query!'),
+  ).toBeInTheDocument()
 })
 
 test('Working Counter', async () => {
   const user = userEvent.setup()
-  const { getByText } = render(
-    <Provider store={store}>
-      <App />
-    </Provider>,
-  )
+  const { getByText } = render(<App />)
   expect(getByText('count is: 0')).toBeInTheDocument()
 
   const button = getByText('Increment')
@@ -39,14 +30,18 @@ test('Working Counter', async () => {
 })
 
 test('working with msw', async () => {
-  render(
-    <Provider store={store}>
-      <App />
-    </Provider>,
+  const user = userEvent.setup()
+  const { getByRole } = render(<App />)
+  // move to /doclist page
+  const link = getByRole('link')
+  await user.click(link)
+  // Showing Spinner
+  await waitFor(
+    () => {
+      expect(screen.getByText('Redux Toolkit')).toBeInTheDocument()
+      expect(screen.getByText('MSW')).toBeInTheDocument()
+      expect(screen.getByText('Tailwind CSS')).toBeInTheDocument()
+    },
+    { timeout: 4000 },
   )
-  await waitFor(() => {
-    expect(screen.getByText('Redux Toolkit')).toBeInTheDocument()
-    expect(screen.getByText('MSW')).toBeInTheDocument()
-    expect(screen.getByText('Tailwind CSS')).toBeInTheDocument()
-  })
 })

@@ -14,9 +14,12 @@ const Counter: React.FC = () => {
 
   return (
     <main className={styles.container}>
+      <Link to="/doclist" className={styles.link}>
+        &gt; DocList
+      </Link>
       <header className={styles.header}>
         <img src={logo} className={styles.logo} alt="logo" />
-        <p>Hello Vite + Redux-Toolkit & RTK Query!</p>
+        <h1>Hello Vite + Redux-Toolkit & RTK Query!</h1>
       </header>
 
       <section className={styles.buttonSection}>
@@ -40,7 +43,6 @@ const Counter: React.FC = () => {
       <section className={styles.countSection}>
         <p>count is: {count}</p>
       </section>
-      <Link to="/doclist">DocList</Link>
     </main>
   )
 }
