@@ -1,6 +1,6 @@
 {
   "extends": ["config:base"],
-  "schedule": ["at 4:00am"],
+  "schedule": ["before 4:00am"],
   "timezone": "Asia/Tokyo",
   "separateMajorMinor": false,
   "packageRules": [
