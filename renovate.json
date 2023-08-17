@@ -1,5 +1,11 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base"],
-  "schedule": ["before 4am"]
+  "schedule": ["at 4:00am Asia/Tokyo"],
+  "separateMajorMinor": false,
+  "packageRules": [
+    {
+      "updateTypes": ["minor", "patch", "pin", "digest"],
+      "groupName": null
+    }
+  ]
 }
