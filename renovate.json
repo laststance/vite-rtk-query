@@ -3,8 +3,11 @@
   "schedule": ["before 4:00am"],
   "timezone": "Asia/Tokyo",
   "separateMajorMinor": false,
+  "skipInstalls": false,
   "packageRules": [
     {
+      "matchManagers": ["npm"],
+      "npmInstallOptions": ["--force"],
       "updateTypes": ["minor", "patch", "pin", "digest"],
       "groupName": null
     }
