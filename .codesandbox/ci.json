@@ -1,6 +1,0 @@
-{
-  "installCommand": "npm i --force",
-  "buildCommand": false,
-  "sandboxes": ["/"],
-  "node": "18"
-}
