@@ -7,7 +7,7 @@ import type { DocsList } from './types'
 export const docsApi = createApi({
   baseQuery: fetchBaseQuery({
     baseUrl: 'http://localhost:4000/api',
-    fetchFn: (...args) => ky(...args),
+    fetchFn: async (...args) => ky(...args),
   }),
   endpoints: (builder) => ({
     getDocsList: builder.query<DocsList, void>({
