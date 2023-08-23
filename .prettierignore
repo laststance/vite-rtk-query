@@ -1,5 +1,10 @@
 .git
+.idea
+.vscode
 node_modules
 .eslintignore
 .gitignore
-LICENSE
+dist
+package-lock.json
+yarn.lock
+*.log

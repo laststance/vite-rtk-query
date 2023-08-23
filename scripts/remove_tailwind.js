@@ -15,7 +15,7 @@ function removeTailwind() {
   } catch (e) {
     if (e.message.includes('no such file or directory'))
       console.log(
-        'postcss.config.js/tailwind.config.js has already been removed.'
+        'postcss.config.js/tailwind.config.js has already been removed.',
       )
   }
 

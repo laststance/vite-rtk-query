@@ -8,14 +8,14 @@
   "scripts": {
     "start": "vite",
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "serve": "serve dist",
     "test": "vitest --run",
     "test:watch": "vitest",
     "lint": "eslint src --ext .ts,.tsx,.js,jsx",
     "lint:fix": "eslint src --ext .ts,.tsx,.js,jsx --fix",
     "typecheck": "tsc --noEmit",
-    "prettier": "prettier --write \"**/*.+(json|yml|css|md|mdx)\"",
+    "prettier": "prettier --ignore-unknown \"**/*.*\" --write",
     "clean": "rimraf node_modules package-lock.json dist",
     "validate": "./scripts/validate",
     "remove:tailwind": "node ./scripts/remove_tailwind"
