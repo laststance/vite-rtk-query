@@ -1,9 +1,7 @@
-import matchers from '@testing-library/jest-dom/matchers'
+import '@testing-library/jest-dom/vitest'
 import { Headers, Request } from 'node-fetch'
 
 import { server } from '../mocks/server'
-// extends Vitest's expect method with methods from react-testing-library
-expect.extend(matchers)
 
 // @ts-ignore
 globalThis.Request = Request
