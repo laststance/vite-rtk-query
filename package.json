@@ -52,7 +52,7 @@
     "concurrently": "^8.2.1",
     "eslint": "^8.46.0",
     "eslint-config-prettier": "^9.0.0",
-    "eslint-config-ts-prefixer": "^0.25.1",
+    "eslint-config-ts-prefixer": "^1.0.2",
     "eslint-config-typescript": "^3.0.0",
     "eslint-import-resolver-typescript": "^3.6.0",
     "eslint-plugin-import": "^2.28.0",
