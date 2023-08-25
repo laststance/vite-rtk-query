@@ -2,18 +2,18 @@
   "setupTasks": [
     {
       "name": "Install Dependencies",
-      "command": "npm install"
+      "command": "pnpm install"
     }
   ],
   "tasks": {
     "start": {
       "name": "start",
-      "command": "npm run start",
+      "command": "pnpm run start",
       "runAtStart": false
     },
     "dev": {
       "name": "dev",
-      "command": "npm run dev",
+      "command": "pnpm run dev",
       "runAtStart": true,
       "preview": {
         "port": 3000
@@ -21,57 +21,57 @@
     },
     "build": {
       "name": "build",
-      "command": "npm run build",
+      "command": "pnpm run build",
       "runAtStart": false
     },
     "serve": {
       "name": "serve",
-      "command": "npm run serve",
+      "command": "pnpm run serve",
       "runAtStart": false
     },
     "test": {
       "name": "test",
-      "command": "npm run test",
+      "command": "pnpm run test",
       "runAtStart": false
     },
     "test:watch": {
       "name": "test:watch",
-      "command": "npm run test:watch",
+      "command": "pnpm run test:watch",
       "runAtStart": false
     },
     "lint": {
       "name": "lint",
-      "command": "npm run lint",
+      "command": "pnpm run lint",
       "runAtStart": false
     },
     "lint:fix": {
       "name": "lint:fix",
-      "command": "npm run lint:fix",
+      "command": "pnpm run lint:fix",
       "runAtStart": false
     },
     "typecheck": {
       "name": "typecheck",
-      "command": "npm run typecheck",
+      "command": "pnpm run typecheck",
       "runAtStart": false
     },
     "prettier": {
       "name": "prettier",
-      "command": "npm run prettier",
+      "command": "pnpm run prettier",
       "runAtStart": false
     },
     "clean": {
       "name": "clean",
-      "command": "npm run clean",
+      "command": "pnpm run clean",
       "runAtStart": false
     },
     "validate": {
       "name": "validate",
-      "command": "npm run validate",
+      "command": "pnpm run validate",
       "runAtStart": false
     },
     "remove:tailwind": {
       "name": "remove:tailwind",
-      "command": "npm run remove:tailwind",
+      "command": "pnpm run remove:tailwind",
       "runAtStart": false
     }
   }
