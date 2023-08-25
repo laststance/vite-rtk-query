@@ -19,7 +19,7 @@
 - [tailwindcss](https://tailwindcss.com/)
 - [Github Actions](https://github.com/features/actions)
 
-All npm package are keeping least release version powered by [Renovate](https://github.com/renovatebot/renovate).
+All npm package are keeping least release version powered by [Dependabot](https://github.com/dependabot).
 
 # Installation
 
@@ -27,33 +27,35 @@ All npm package are keeping least release version powered by [Renovate](https://
 npx degit laststance/vite-rtk-query myapp
 ```
 
-### npm
+- Install [pnpm](https://pnpm.io/installation)
+
+### pnpm
 
 ```sh
 cd myapp
-npm install --force
-npm run validate
-npm run dev
+pnpm install
+pnpm validate
+pnpm dev
 ```
 
-If you don't need TailwindCSS, run `npm run remove:tailwind` after `npm install`.
+If you don't need TailwindCSS, run `pnpm remove:tailwind` after `pnpm install`.
 
 ## Commands
 
 ```bash
-npm run dev             # start development server
-npm run start           # start development server
-npm run validate        # run test,lint,build,typecheck concurrently
-npm run test            # run vitest
-npm run test:watch      # run vitest watch mode
-npm run lint            # run eslint
-npm run lint:fix         # run eslint with --fix option
-npm run typecheck       # run TypeScript compiler check
-npm run build           # build production bundle to 'dist' directly
-npm run prettier        # run prettier for json|yml|css|md|mdx files
-npm run clean           # remove 'node_modules' 'yarn.lock' 'dist' completely
-npm run serve           # launch server for production bundle in local
-npm run remove:tailwind # remove TailwindCSS
+pnpm dev             # start development server
+pnpm start           # start development server
+pnpm validate        # run test,lint,build,typecheck concurrently
+pnpm test            # run vitest
+pnpm test:watch      # run vitest watch mode
+pnpm lint            # run eslint
+pnpm lint:fix         # run eslint with --fix option
+pnpm typecheck       # run TypeScript compiler check
+pnpm build           # build production bundle to 'dist' directly
+pnpm prettier        # run prettier for json|yml|css|md|mdx files
+pnpm clean           # remove 'node_modules' 'yarn.lock' 'dist' completely
+pnpm serve           # launch server for production bundle in local
+pnpm remove:tailwind # remove TailwindCSS
 ```
 
 # License
