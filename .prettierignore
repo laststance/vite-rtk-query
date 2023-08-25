@@ -5,6 +5,8 @@ node_modules
 .eslintignore
 .gitignore
 dist
+.all-contributorsrc
 package-lock.json
 yarn.lock
+pnpm-lock.yaml
 *.log

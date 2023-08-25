@@ -15,8 +15,8 @@
     "lint": "eslint src --ext .ts,.tsx,.js,jsx",
     "lint:fix": "eslint src --ext .ts,.tsx,.js,jsx --fix",
     "typecheck": "tsc --noEmit",
-    "prettier": "prettier --ignore-unknown \"**/*.*\" --write",
-    "clean": "rimraf node_modules package-lock.json dist",
+    "prettier": "prettier --write --ignore-unknown .",
+    "clean": "rimraf node_modules pnpm-lock.yaml dist",
     "validate": "./scripts/validate",
     "remove:tailwind": "node ./scripts/remove_tailwind"
   },
