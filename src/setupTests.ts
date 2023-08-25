@@ -5,6 +5,7 @@ import { server } from '../mocks/server'
 
 // @ts-ignore
 globalThis.Request = Request
+// @ts-ignore
 globalThis.Headers = Headers
 
 beforeAll(() => server.listen({ onUnhandledRequest: 'error' }))
