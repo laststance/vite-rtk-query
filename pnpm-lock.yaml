@@ -128,8 +128,8 @@ devDependencies:
     specifier: ^22.1.0
     version: 22.1.0
   msw:
-    specifier: ^1.2.4
-    version: 1.2.4(typescript@5.2.2)
+    specifier: ^1.2.5
+    version: 1.2.5(typescript@5.2.2)
   node-fetch:
     specifier: ^3.3.2
     version: 3.3.2
@@ -1779,7 +1779,7 @@ packages:
     dependencies:
       ansi-align: 3.0.1
       camelcase: 7.0.1
-      chalk: 5.0.1
+      chalk: 5.3.0
       cli-boxes: 3.0.0
       string-width: 5.1.2
       type-fest: 2.19.0
@@ -3911,9 +3911,9 @@ packages:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
     dev: true
 
-  /msw@1.2.4(typescript@5.2.2):
-    resolution: {integrity: sha512-Z0J00iH2EBTsBNPXbtKiLs2iSFz1py32BAgTlsSDu+WKXRW8gOJJ3m2LGk6QEraZfbL7IBJ/ghwDXUVu5CyGpw==}
-    engines: {node: '>=14', pnpm: ~7.12}
+  /msw@1.2.5(typescript@5.2.2):
+    resolution: {integrity: sha512-Y3MwnAHX3d162eSWrEUeRdCv3+8hmgz/+Wh7OUkE6VB55+YTswxrep3yU3evZnKWHJGAM63G1s+olAgzIFdYtQ==}
+    engines: {node: '>=14'}
     hasBin: true
     requiresBuild: true
     peerDependencies:
