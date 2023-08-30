@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@reduxjs/toolkit':
-    specifier: 2.0.0-beta.0
-    version: 2.0.0-beta.0(react-redux@8.1.2)(react@18.2.0)
+    specifier: 2.0.0-beta.1
+    version: 2.0.0-beta.1(react-redux@8.1.2)(react@18.2.0)
   clsx:
     specifier: ^2.0.0
     version: 2.0.0
@@ -895,11 +895,11 @@ packages:
       tslib: 2.6.2
     dev: true
 
-  /@reduxjs/toolkit@2.0.0-beta.0(react-redux@8.1.2)(react@18.2.0):
-    resolution: {integrity: sha512-CdtzVdSpnVVmXKITF78mlc2sFbhjxc57yMlfmaE/1EBF7yKXlKOxGP2CY8uwXccU7QPp4j4/pgWiDniDiqquYA==}
+  /@reduxjs/toolkit@2.0.0-beta.1(react-redux@8.1.2)(react@18.2.0):
+    resolution: {integrity: sha512-p7pC/mx9WNtMyYXoASO7rY5rTXzYylnVSABhzV2Of/rVRKdKRRZPGjP7CkL0cQolJlSoQxtVvz4E5Ifz8Ulvhg==}
     peerDependencies:
       react: ^16.9.0 || ^17.0.0 || ^18
-      react-redux: ^7.2.1 || ^8.0.2
+      react-redux: ^7.2.1 || ^8.0.2 || ^9.0.0-alpha.1
     peerDependenciesMeta:
       react:
         optional: true
@@ -910,7 +910,7 @@ packages:
       react: 18.2.0
       react-redux: 8.1.2(@types/react-dom@18.2.7)(@types/react@18.2.21)(react-dom@18.2.0)(react@18.2.0)(redux@5.0.0-beta.0)
       redux: 5.0.0-beta.0
-      redux-thunk: 3.0.0-alpha.3(redux@5.0.0-beta.0)
+      redux-thunk: 3.0.0-beta.0(redux@5.0.0-beta.0)
       reselect: 5.0.0-alpha.2
     dev: false
 
@@ -4673,10 +4673,10 @@ packages:
       redux: 5.0.0-beta.0
     dev: false
 
-  /redux-thunk@3.0.0-alpha.3(redux@5.0.0-beta.0):
-    resolution: {integrity: sha512-tRoYt//uXllaNHsdla4sFbCPf0/50BYf6NDRNtg66IZXZcLXiQNTH5LKcIISd0+7BZqFq204JgJcxtih4QLTXQ==}
+  /redux-thunk@3.0.0-beta.0(redux@5.0.0-beta.0):
+    resolution: {integrity: sha512-BLed4FtBhPv52AgqeR7DiOhrDA8z6owqXOkObOqgl1kwq4QQ1T74dy32qxyWsdyAlvq9wAHHW6t4tlxz8XnFhA==}
     peerDependencies:
-      redux: ^4
+      redux: ^4 || ^5.0.0-beta.0
     dependencies:
       redux: 5.0.0-beta.0
     dev: false
