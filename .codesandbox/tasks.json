@@ -2,7 +2,7 @@
   "setupTasks": [
     {
       "name": "Install Dependencies",
-      "command": "pnpm install"
+      "command": "pnpm add pnpm && pnpm i --force"
     }
   ],
   "tasks": {
