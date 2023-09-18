@@ -101,8 +101,8 @@ devDependencies:
     specifier: ^9.0.0
     version: 9.0.0(eslint@8.49.0)
   eslint-config-ts-prefixer:
-    specifier: ^1.6.0
-    version: 1.6.0
+    specifier: ^1.8.0
+    version: 1.8.0
   eslint-config-typescript:
     specifier: ^3.0.0
     version: 3.0.0(@typescript-eslint/eslint-plugin@6.7.0)(@typescript-eslint/parser@6.7.0)(eslint@8.49.0)(typescript@5.2.2)
@@ -2509,8 +2509,8 @@ packages:
       eslint: 8.49.0
     dev: true
 
-  /eslint-config-ts-prefixer@1.6.0:
-    resolution: {integrity: sha512-rQHpoV2YN5q38uj2mc1B7H3I2Yy1fxTGTuf5XLQmkK3V8nFWRLOR7WeZQgps+LnLtLBT1ppqKRLMlwzYyMFaDg==}
+  /eslint-config-ts-prefixer@1.8.0:
+    resolution: {integrity: sha512-hMfHbhbjuOm/k64pZTMEgfnhCsYdRlGM1GDaXpKl+xH3nApuQPcUFJ9sHdZTWTYTj+OFNJBXKarhq0LIz7T61g==}
     hasBin: true
     dependencies:
       '@inquirer/prompts': 3.1.1
