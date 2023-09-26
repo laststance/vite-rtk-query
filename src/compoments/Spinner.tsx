@@ -14,13 +14,13 @@ const variants = {
 }
 
 export type SpinnerProps = {
+  className?: string
   size?: keyof typeof sizes
   variant?: keyof typeof variants
-  className?: string
 }
 
 const Spinner: React.FC<React.PropsWithChildren<SpinnerProps>> = memo(
-  ({ size = 'md', variant = 'primary', className = '' }: SpinnerProps) => {
+  ({ className = '', size = 'md', variant = 'primary' }: SpinnerProps) => {
     return (
       <>
         <svg
