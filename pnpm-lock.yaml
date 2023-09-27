@@ -25,7 +25,7 @@ dependencies:
     version: 18.2.0(react@18.2.0)
   react-redux:
     specifier: ^8.1.2
-    version: 8.1.2(@types/react-dom@18.2.7)(@types/react@18.2.22)(react-dom@18.2.0)(react@18.2.0)(redux@5.0.0-beta.0)
+    version: 8.1.2(@types/react-dom@18.2.8)(@types/react@18.2.22)(react-dom@18.2.0)(react@18.2.0)(redux@5.0.0-beta.0)
   react-router-dom:
     specifier: ^6.16.0
     version: 6.16.0(react-dom@18.2.0)(react@18.2.0)
@@ -71,8 +71,8 @@ devDependencies:
     specifier: ^18.2.22
     version: 18.2.22
   '@types/react-dom':
-    specifier: ^18.2.7
-    version: 18.2.7
+    specifier: ^18.2.8
+    version: 18.2.8
   '@typescript-eslint/eslint-plugin':
     specifier: ^6.7.2
     version: 6.7.3(@typescript-eslint/parser@6.7.3)(eslint@8.50.0)(typescript@5.2.2)
@@ -909,7 +909,7 @@ packages:
     dependencies:
       immer: 10.0.2
       react: 18.2.0
-      react-redux: 8.1.2(@types/react-dom@18.2.7)(@types/react@18.2.22)(react-dom@18.2.0)(react@18.2.0)(redux@5.0.0-beta.0)
+      react-redux: 8.1.2(@types/react-dom@18.2.8)(@types/react@18.2.22)(react-dom@18.2.0)(react@18.2.0)(redux@5.0.0-beta.0)
       redux: 5.0.0-beta.0
       redux-thunk: 3.0.0-beta.0(redux@5.0.0-beta.0)
       reselect: 5.0.0-alpha.2
@@ -1136,7 +1136,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.23.1
       '@testing-library/dom': 9.3.3
-      '@types/react-dom': 18.2.7
+      '@types/react-dom': 18.2.8
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -1255,8 +1255,8 @@ packages:
   /@types/prop-types@15.7.7:
     resolution: {integrity: sha512-FbtmBWCcSa2J4zL781Zf1p5YUBXQomPEcep9QZCfRfQgTxz3pJWiDFLebohZ9fFntX5ibzOkSsrJ0TEew8cAog==}
 
-  /@types/react-dom@18.2.7:
-    resolution: {integrity: sha512-GRaAEriuT4zp9N4p1i8BDBYmEyfo+xQ3yHjJU4eiK5NDa1RmUZG+unZABUTK4/Ox/M+GaHwb6Ow8rUITrtjszA==}
+  /@types/react-dom@18.2.8:
+    resolution: {integrity: sha512-bAIvO5lN/U8sPGvs1Xm61rlRHHaq5rp5N3kp9C+NJ/Q41P8iqjkXSu0+/qu8POsjH9pNWb0OYabFez7taP7omw==}
     dependencies:
       '@types/react': 18.2.22
 
@@ -4600,7 +4600,7 @@ packages:
   /react-is@18.2.0:
     resolution: {integrity: sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==}
 
-  /react-redux@8.1.2(@types/react-dom@18.2.7)(@types/react@18.2.22)(react-dom@18.2.0)(react@18.2.0)(redux@5.0.0-beta.0):
+  /react-redux@8.1.2(@types/react-dom@18.2.8)(@types/react@18.2.22)(react-dom@18.2.0)(react@18.2.0)(redux@5.0.0-beta.0):
     resolution: {integrity: sha512-xJKYI189VwfsFc4CJvHqHlDrzyFTY/3vZACbE+rr/zQ34Xx1wQfB4OTOSeOSNrF6BDVe8OOdxIrAnMGXA3ggfw==}
     peerDependencies:
       '@types/react': ^16.8 || ^17.0 || ^18.0
@@ -4624,7 +4624,7 @@ packages:
       '@babel/runtime': 7.23.1
       '@types/hoist-non-react-statics': 3.3.2
       '@types/react': 18.2.22
-      '@types/react-dom': 18.2.7
+      '@types/react-dom': 18.2.8
       '@types/use-sync-external-store': 0.0.3
       hoist-non-react-statics: 3.3.2
       react: 18.2.0
