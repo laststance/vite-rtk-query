@@ -61,7 +61,6 @@
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-prettier": "^5.0.1",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-sort-keys-custom-order": "^1.0.5",
     "jsdom": "^22.1.0",
     "msw": "^2.0.0",
     "node-fetch": "^3.3.2",
