@@ -1,9 +1,9 @@
-import { rest } from 'msw'
+import { http, HttpResponse } from 'msw'
 
 import { sleep } from '../src/utils/sleep'
 
 export const handlers = [
-  rest.get('http://localhost:4000/api/docs_list', async (_req, res, ctx) => {
+  http.get('http://localhost:4000/api/docs_list', async () => {
     const data = [
       { name: 'Vite', url: 'https://vitejs.dev/' },
       { name: 'Redux Style Guide', url: 'https://redux.js.org/style-guide/' },
@@ -26,6 +26,6 @@ export const handlers = [
     ]
     await sleep(3000)
 
-    return res(ctx.status(200), ctx.json(data))
+    return HttpResponse.json(data)
   }),
 ]
