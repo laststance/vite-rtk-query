@@ -131,8 +131,8 @@ devDependencies:
     specifier: ^15.0.2
     version: 15.0.2
   msw:
-    specifier: ^2.0.2
-    version: 2.0.2(typescript@5.2.2)
+    specifier: ^2.0.3
+    version: 2.0.3(typescript@5.2.2)
   node-fetch:
     specifier: ^3.3.2
     version: 3.3.2
@@ -4150,8 +4150,8 @@ packages:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
     dev: true
 
-  /msw@2.0.2(typescript@5.2.2):
-    resolution: {integrity: sha512-loyQnNUDY1x05R/t2naVdtNhP+tfyf+ckEwtvRUuoK9JnDeoh3/ZN3Fu2ZtvO/iJ3IwwuLizWwWaxBxS3sDQUw==}
+  /msw@2.0.3(typescript@5.2.2):
+    resolution: {integrity: sha512-PFIo99h862DiVazndQmko1vJFNNhog0CYajK6N12ESzeLURYJlUglv9ObzWmRCAN3DRVuq7BUeI+eBgRk7oYaQ==}
     engines: {node: '>=18'}
     hasBin: true
     requiresBuild: true
