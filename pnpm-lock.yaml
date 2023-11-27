@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@reduxjs/toolkit':
-    specifier: 2.0.0-rc.0
-    version: 2.0.0-rc.0(react-redux@8.1.3)(react@18.2.0)
+    specifier: 2.0.0-rc.1
+    version: 2.0.0-rc.1(react-redux@8.1.3)(react@18.2.0)
   clsx:
     specifier: ^2.0.0
     version: 2.0.0
@@ -945,8 +945,8 @@ packages:
       tslib: 2.6.2
     dev: true
 
-  /@reduxjs/toolkit@2.0.0-rc.0(react-redux@8.1.3)(react@18.2.0):
-    resolution: {integrity: sha512-+C1pCdur4w1EMRjbISjbS4cuuhbm0ZQ8f+6G4Q2QUAynie9H0Q36JVCVnPYvTO320FBunSurbwKC7DAsuiwWKQ==}
+  /@reduxjs/toolkit@2.0.0-rc.1(react-redux@8.1.3)(react@18.2.0):
+    resolution: {integrity: sha512-BF+7Yxm7yuUnUevU2lq80Zg2CTJa9YXcsrFS36H853kfCcW023IuFlJsRoSAkp9j7KFA2WOszzliqGsA2IXxPQ==}
     peerDependencies:
       react: ^16.9.0 || ^17.0.0 || ^18
       react-redux: ^7.2.1 || ^8.1.3 || ^9.0.0-rc.0
