@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@reduxjs/toolkit':
-    specifier: 2.0.0-rc.1
-    version: 2.0.0-rc.1(react-redux@8.1.3)(react@18.2.0)
+    specifier: 2.0.0-rc.2
+    version: 2.0.0-rc.2(react-redux@8.1.3)(react@18.2.0)
   clsx:
     specifier: ^2.0.0
     version: 2.0.0
@@ -945,8 +945,8 @@ packages:
       tslib: 2.6.2
     dev: true
 
-  /@reduxjs/toolkit@2.0.0-rc.1(react-redux@8.1.3)(react@18.2.0):
-    resolution: {integrity: sha512-BF+7Yxm7yuUnUevU2lq80Zg2CTJa9YXcsrFS36H853kfCcW023IuFlJsRoSAkp9j7KFA2WOszzliqGsA2IXxPQ==}
+  /@reduxjs/toolkit@2.0.0-rc.2(react-redux@8.1.3)(react@18.2.0):
+    resolution: {integrity: sha512-VL8Vdjnt6xKIEp+34BXkr+X33sywD8ZUfOU7ZTXjthSxbgZyA2KNE1VOdvcR1j8qYPw8Rm4jcv9P5P/6KeVPIw==}
     peerDependencies:
       react: ^16.9.0 || ^17.0.0 || ^18
       react-redux: ^7.2.1 || ^8.1.3 || ^9.0.0-rc.0
@@ -961,7 +961,7 @@ packages:
       react-redux: 8.1.3(@types/react-dom@18.2.17)(@types/react@18.2.39)(react-dom@18.2.0)(react@18.2.0)(redux@5.0.0-rc.1)
       redux: 5.0.0-rc.1
       redux-thunk: 3.0.0-rc.0(redux@5.0.0-rc.1)
-      reselect: 5.0.0-beta.1
+      reselect: 5.0.0-rc.0
     dev: false
 
   /@remix-run/router@1.13.0:
@@ -5070,8 +5070,8 @@ packages:
     resolution: {integrity: sha512-KigOCHcocU3XODJxsu8i/j8T9tzT4adHiecwORRQ0ZZFcp7ahwXuRU1m+yuO90C5ZUyGeGfocHDI14M3L3yDAQ==}
     dev: true
 
-  /reselect@5.0.0-beta.1:
-    resolution: {integrity: sha512-DxH9DLLbaiuLI4gCM8kSfonXtqd9Lh1BsNQhZByr3pHb3c75eFfgxb4vNJxeTgHFn27aLlt3tX0Xh+IqvJsyuw==}
+  /reselect@5.0.0-rc.0:
+    resolution: {integrity: sha512-SEFZMpPuyC4M0ThG709V2Tpq9YWlDq2ubyfq7XSRRU9ONje6VykUoYUlWKISl1BWmfBLuRYkDS2mg5r2nu1jBA==}
     dev: false
 
   /resolve-from@4.0.0:
