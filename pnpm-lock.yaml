@@ -33,8 +33,8 @@ dependencies:
     specifier: 5.0.0
     version: 5.0.0
   redux-first-history:
-    specifier: ^5.1.1
-    version: 5.1.1(history@5.3.0)(redux@5.0.0)
+    specifier: ^5.2.0
+    version: 5.2.0(history@5.3.0)(redux@5.0.0)
 
 devDependencies:
   '@tailwindcss/aspect-ratio':
@@ -4993,11 +4993,11 @@ packages:
       strip-indent: 3.0.0
     dev: true
 
-  /redux-first-history@5.1.1(history@5.3.0)(redux@5.0.0):
-    resolution: {integrity: sha512-ujVHv+y9wC2rqavS5tLiSu6zkw+VYrEea+/ggwVTRuutadEtwxSRlaK19ry/PTLSQtFuUF1Xu+plL5erD4roVw==}
+  /redux-first-history@5.2.0(history@5.3.0)(redux@5.0.0):
+    resolution: {integrity: sha512-7kLqtSXGPZIgvEhl3B+3wRvzePvvZggpVqg+jpR2ZVqu2ESGj9DF6hMHpoEP7bGHqddljjKYjnRmtSetYEiG2Q==}
     peerDependencies:
       history: ^4.7.2 || ^5.0
-      redux: ^3.6.0 || ^4.0.0
+      redux: ^3.6.0 || ^4.0.0 || ^5.0.0
     dependencies:
       history: 5.3.0
       redux: 5.0.0

@@ -34,7 +34,7 @@
     "react-redux": "^9.0.4",
     "react-router-dom": "^6.21.0",
     "redux": "5.0.0",
-    "redux-first-history": "^5.1.1"
+    "redux-first-history": "^5.2.0"
   },
   "devDependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.2",
