@@ -25,16 +25,16 @@ dependencies:
     version: 18.2.0(react@18.2.0)
   react-redux:
     specifier: ^9.0.4
-    version: 9.0.4(@types/react@18.2.45)(react@18.2.0)(redux@5.0.0)
+    version: 9.0.4(@types/react@18.2.45)(react@18.2.0)(redux@5.0.1)
   react-router-dom:
     specifier: ^6.21.1
     version: 6.21.1(react-dom@18.2.0)(react@18.2.0)
   redux:
-    specifier: 5.0.0
-    version: 5.0.0
+    specifier: 5.0.1
+    version: 5.0.1
   redux-first-history:
     specifier: ^5.2.0
-    version: 5.2.0(history@5.3.0)(redux@5.0.0)
+    version: 5.2.0(history@5.3.0)(redux@5.0.1)
 
 devDependencies:
   '@tailwindcss/aspect-ratio':
@@ -980,9 +980,9 @@ packages:
     dependencies:
       immer: 10.0.3
       react: 18.2.0
-      react-redux: 9.0.4(@types/react@18.2.45)(react@18.2.0)(redux@5.0.0)
-      redux: 5.0.0
-      redux-thunk: 3.1.0(redux@5.0.0)
+      react-redux: 9.0.4(@types/react@18.2.45)(react@18.2.0)(redux@5.0.1)
+      redux: 5.0.1
+      redux-thunk: 3.1.0(redux@5.0.1)
       reselect: 5.0.1
     dev: false
 
@@ -4907,7 +4907,7 @@ packages:
     resolution: {integrity: sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==}
     dev: true
 
-  /react-redux@9.0.4(@types/react@18.2.45)(react@18.2.0)(redux@5.0.0):
+  /react-redux@9.0.4(@types/react@18.2.45)(react@18.2.0)(redux@5.0.1):
     resolution: {integrity: sha512-9J1xh8sWO0vYq2sCxK2My/QO7MzUMRi3rpiILP/+tDr8krBHixC6JMM17fMK88+Oh3e4Ae6/sHIhNBgkUivwFA==}
     peerDependencies:
       '@types/react': ^18.2.25
@@ -4925,7 +4925,7 @@ packages:
       '@types/react': 18.2.45
       '@types/use-sync-external-store': 0.0.3
       react: 18.2.0
-      redux: 5.0.0
+      redux: 5.0.1
       use-sync-external-store: 1.2.0(react@18.2.0)
     dev: false
 
@@ -4993,26 +4993,26 @@ packages:
       strip-indent: 3.0.0
     dev: true
 
-  /redux-first-history@5.2.0(history@5.3.0)(redux@5.0.0):
+  /redux-first-history@5.2.0(history@5.3.0)(redux@5.0.1):
     resolution: {integrity: sha512-7kLqtSXGPZIgvEhl3B+3wRvzePvvZggpVqg+jpR2ZVqu2ESGj9DF6hMHpoEP7bGHqddljjKYjnRmtSetYEiG2Q==}
     peerDependencies:
       history: ^4.7.2 || ^5.0
       redux: ^3.6.0 || ^4.0.0 || ^5.0.0
     dependencies:
       history: 5.3.0
-      redux: 5.0.0
+      redux: 5.0.1
     dev: false
 
-  /redux-thunk@3.1.0(redux@5.0.0):
+  /redux-thunk@3.1.0(redux@5.0.1):
     resolution: {integrity: sha512-NW2r5T6ksUKXCabzhL9z+h206HQw/NJkcLm1GPImRQ8IzfXwRGqjVhKJGauHirT0DAuyy6hjdnMZaRoAcy0Klw==}
     peerDependencies:
       redux: ^5.0.0
     dependencies:
-      redux: 5.0.0
+      redux: 5.0.1
     dev: false
 
-  /redux@5.0.0:
-    resolution: {integrity: sha512-blLIYmYetpZMET6Q6uCY7Jtl/Im5OBldy+vNPauA8vvsdqyt66oep4EUpAMWNHauTC6xa9JuRPhRB72rY82QGA==}
+  /redux@5.0.1:
+    resolution: {integrity: sha512-M9/ELqF6fy8FwmkpnF0S3YKOqMyoWJ4+CS5Efg2ct3oY9daQvd/Pc71FpGZsVsbl3Cpb+IIcjBDUnnyBdQbq4w==}
     dev: false
 
   /reflect.getprototypeof@1.0.4:
