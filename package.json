@@ -70,7 +70,7 @@
     "lint-staged": "^15.2.2",
     "msw": "^2.2.8",
     "node-fetch": "^3.3.2",
-    "postcss": "^8.4.36",
+    "postcss": "^8.4.37",
     "postcss-import": "^16.0.1",
     "postcss-nesting": "^12.1.0",
     "prettier": "^3.2.5",
