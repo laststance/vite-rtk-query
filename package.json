@@ -74,7 +74,7 @@
     "postcss-import": "^16.1.0",
     "postcss-nesting": "^12.1.0",
     "prettier": "^3.2.5",
-    "prettier-plugin-tailwindcss": "^0.5.12",
+    "prettier-plugin-tailwindcss": "^0.5.13",
     "serve": "^14.2.1",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.4.3",
