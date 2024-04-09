@@ -11,7 +11,7 @@ import { docsApi } from './services/docs'
 const { createReduxHistory, routerMiddleware, routerReducer } =
   createReduxHistoryContext({ history: createBrowserHistory() })
 export const store = configureStore({
-  devTools: process.env.NODE_ENV === 'development' ? true : false,
+  devTools: process.env.NODE_ENV === 'development',
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware().concat([docsApi.middleware, routerMiddleware]),
   reducer: combineReducers({
