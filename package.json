@@ -77,7 +77,7 @@
     "prettier-plugin-tailwindcss": "^0.6.5",
     "serve": "^14.2.3",
     "tailwindcss": "^3.4.4",
-    "typescript": "^5.5.2",
+    "typescript": "^5.5.3",
     "vite": "^5.3.3",
     "vitest": "^1.6.0"
   }
