@@ -22,7 +22,7 @@
     "clean": "rimraf node_modules pnpm-lock.yaml dist",
     "validate": "./scripts/validate",
     "remove:tailwind": "node ./scripts/remove_tailwind",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "dependencies": {
     "@reduxjs/toolkit": "2.2.6",
