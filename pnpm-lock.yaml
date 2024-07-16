@@ -52,17 +52,17 @@ importers:
         specifier: ^0.5.13
         version: 0.5.13(tailwindcss@3.4.4)
       '@testing-library/dom':
-        specifier: ^10.3.1
-        version: 10.3.1
+        specifier: ^10.3.2
+        version: 10.3.2
       '@testing-library/jest-dom':
         specifier: ^6.4.6
         version: 6.4.6(vitest@2.0.3(@types/node@20.14.10)(jsdom@24.1.0))
       '@testing-library/react':
         specifier: ^16.0.0
-        version: 16.0.0(@testing-library/dom@10.3.1)(@types/react-dom@18.2.25)(@types/react@18.2.79)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 16.0.0(@testing-library/dom@10.3.2)(@types/react-dom@18.2.25)(@types/react@18.2.79)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       '@testing-library/user-event':
         specifier: ^14.5.2
-        version: 14.5.2(@testing-library/dom@10.3.1)
+        version: 14.5.2(@testing-library/dom@10.3.2)
       '@types/eslint':
         specifier: ^8.56.7
         version: 8.56.7
@@ -758,8 +758,8 @@ packages:
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders'
 
-  '@testing-library/dom@10.3.1':
-    resolution: {integrity: sha512-q/WL+vlXMpC0uXDyfsMtc1rmotzLV8Y0gq6q1gfrrDjQeHoeLrqHbxdPvPNAh1i+xuJl7+BezywcXArz7vLqKQ==}
+  '@testing-library/dom@10.3.2':
+    resolution: {integrity: sha512-0bxIdP9mmPiOJ6wHLj8bdJRq+51oddObeCGdEf6PNEhYd93ZYAN+lPRnEOVFtheVwDM7+p+tza3LAQgp0PTudg==}
     engines: {node: '>=18'}
 
   '@testing-library/jest-dom@6.4.6':
@@ -4199,7 +4199,7 @@ snapshots:
       postcss-selector-parser: 6.0.10
       tailwindcss: 3.4.4
 
-  '@testing-library/dom@10.3.1':
+  '@testing-library/dom@10.3.2':
     dependencies:
       '@babel/code-frame': 7.24.2
       '@babel/runtime': 7.23.2
@@ -4223,19 +4223,19 @@ snapshots:
     optionalDependencies:
       vitest: 2.0.3(@types/node@20.14.10)(jsdom@24.1.0)
 
-  '@testing-library/react@16.0.0(@testing-library/dom@10.3.1)(@types/react-dom@18.2.25)(@types/react@18.2.79)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
+  '@testing-library/react@16.0.0(@testing-library/dom@10.3.2)(@types/react-dom@18.2.25)(@types/react@18.2.79)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
     dependencies:
       '@babel/runtime': 7.23.2
-      '@testing-library/dom': 10.3.1
+      '@testing-library/dom': 10.3.2
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     optionalDependencies:
       '@types/react': 18.2.79
       '@types/react-dom': 18.2.25
 
-  '@testing-library/user-event@14.5.2(@testing-library/dom@10.3.1)':
+  '@testing-library/user-event@14.5.2(@testing-library/dom@10.3.2)':
     dependencies:
-      '@testing-library/dom': 10.3.1
+      '@testing-library/dom': 10.3.2
 
   '@types/aria-query@5.0.2': {}
 
