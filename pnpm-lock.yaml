@@ -18,8 +18,8 @@ importers:
         specifier: ^5.3.0
         version: 5.3.0
       ky:
-        specifier: ^1.6.0
-        version: 1.6.0
+        specifier: ^1.7.0
+        version: 1.7.0
       react:
         specifier: ^18.2.0
         version: 18.2.0
@@ -2271,8 +2271,8 @@ packages:
   keyv@4.5.3:
     resolution: {integrity: sha512-QCiSav9WaX1PgETJ+SpNnx2PRRapJ/oRSXM4VO5OGYGSjrxbKPVFVhB3l2OCbLCk329N8qyAtsJjSjvVBWzEug==}
 
-  ky@1.6.0:
-    resolution: {integrity: sha512-MG7hlH26oShC4Lysk5TYzXshHLfEY52IJ0ofOeCsifquqTymbXCSTx+g4rXO30XYxoM6Y1ed5pNnpULe9Rx19A==}
+  ky@1.7.0:
+    resolution: {integrity: sha512-g+S6ZMESSMuxrrbcDioBKSjBj8Xvam2WmLso+q1Ub7TTYCGS68XbSEM+eA3VSTmXJfR1uQjsTooC2tCsC3bW6g==}
     engines: {node: '>=18'}
 
   language-subtag-registry@0.3.22:
@@ -5987,7 +5987,7 @@ snapshots:
     dependencies:
       json-buffer: 3.0.1
 
-  ky@1.6.0: {}
+  ky@1.7.0: {}
 
   language-subtag-registry@0.3.22: {}
 
