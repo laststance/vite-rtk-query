@@ -52,7 +52,7 @@
     "@typescript-eslint/eslint-plugin": "^7.0.0",
     "@typescript-eslint/parser": "^6.21.0",
     "@vitejs/plugin-react": "^4.3.3",
-    "@vitejs/plugin-react-swc": "^3.7.1",
+    "@vitejs/plugin-react-swc": "^3.7.2",
     "all-contributors-cli": "^6.26.1",
     "autoprefixer": "^10.4.20",
     "concurrently": "^9.1.0",
