@@ -68,7 +68,7 @@
     "husky": "^9.1.7",
     "jsdom": "^25.0.1",
     "lint-staged": "^15.2.10",
-    "msw": "^2.6.6",
+    "msw": "^2.6.7",
     "node-fetch": "^3.3.2",
     "postcss": "^8.4.49",
     "postcss-import": "^16.1.0",
