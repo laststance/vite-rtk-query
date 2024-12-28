@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router'
 
 import { useAppSelector, useAppDispatch } from '../../hooks/redux'
 import type { RootState } from '../../store'

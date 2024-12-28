@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router'
 
 import Spinner from '../../components/Spinner'
 import { useGetDocsListQuery } from '../../services/docs'
