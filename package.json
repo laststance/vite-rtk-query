@@ -53,7 +53,7 @@
     "@vitejs/plugin-react-swc": "^3.7.2",
     "all-contributors-cli": "^6.26.1",
     "autoprefixer": "^10.4.20",
-    "concurrently": "^9.1.0",
+    "concurrently": "^9.1.1",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-config-ts-prefixer": "^1.14.1",
