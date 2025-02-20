@@ -133,11 +133,11 @@ importers:
         specifier: ^3.3.2
         version: 3.3.2
       postcss:
-        specifier: ^8.5.2
-        version: 8.5.2
+        specifier: ^8.5.3
+        version: 8.5.3
       postcss-nesting:
         specifier: ^13.0.1
-        version: 13.0.1(postcss@8.5.2)
+        version: 13.0.1(postcss@8.5.3)
       prettier:
         specifier: ^3.5.1
         version: 3.5.1
@@ -2715,8 +2715,8 @@ packages:
     resolution: {integrity: sha512-9RbEr1Y7FFfptd/1eEdntyjMwLeghW1bHX9GWjXo19vx4ytPQhANltvVxDggzJl7mnWM+dX28kb6cyS/4iQjlQ==}
     engines: {node: '>=4'}
 
-  postcss@8.5.2:
-    resolution: {integrity: sha512-MjOadfU3Ys9KYoX0AdkBlFEF1Vx37uCCeN4ZHnmwm9FfpbsGWMZeBLMmmpY+6Ocqod7mkdZ0DT31OlbsFrLlkA==}
+  postcss@8.5.3:
+    resolution: {integrity: sha512-dle9A3yYxlBSrt8Fu+IpjGT8SY8hN0mlaA6GY8t0P5PjIOZemULz/E2Bnm/2dcUOena75OTNkHI76uZBNUUq3A==}
     engines: {node: ^10 || ^12 || >=14}
 
   prelude-ls@1.2.1:
@@ -4228,7 +4228,7 @@ snapshots:
       '@tailwindcss/node': 4.0.6
       '@tailwindcss/oxide': 4.0.6
       lightningcss: 1.29.1
-      postcss: 8.5.2
+      postcss: 8.5.3
       tailwindcss: 4.0.6
 
   '@tailwindcss/typography@0.5.16(tailwindcss@4.0.6)':
@@ -6133,11 +6133,11 @@ snapshots:
 
   possible-typed-array-names@1.0.0: {}
 
-  postcss-nesting@13.0.1(postcss@8.5.2):
+  postcss-nesting@13.0.1(postcss@8.5.3):
     dependencies:
       '@csstools/selector-resolve-nested': 3.0.0(postcss-selector-parser@7.0.0)
       '@csstools/selector-specificity': 5.0.0(postcss-selector-parser@7.0.0)
-      postcss: 8.5.2
+      postcss: 8.5.3
       postcss-selector-parser: 7.0.0
 
   postcss-selector-parser@6.0.10:
@@ -6150,7 +6150,7 @@ snapshots:
       cssesc: 3.0.0
       util-deprecate: 1.0.2
 
-  postcss@8.5.2:
+  postcss@8.5.3:
     dependencies:
       nanoid: 3.3.8
       picocolors: 1.1.1
@@ -6737,7 +6737,7 @@ snapshots:
   vite@6.1.0(@types/node@22.13.4)(jiti@2.4.2)(lightningcss@1.29.1)(yaml@2.7.0):
     dependencies:
       esbuild: 0.24.2
-      postcss: 8.5.2
+      postcss: 8.5.3
       rollup: 4.34.4
     optionalDependencies:
       '@types/node': 22.13.4
