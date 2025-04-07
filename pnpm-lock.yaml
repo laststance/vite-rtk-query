@@ -27,8 +27,8 @@ importers:
         specifier: ^9.2.0
         version: 9.2.0(@types/react@18.2.79)(react@18.2.0)(redux@5.0.1)
       react-router:
-        specifier: ^7.4.1
-        version: 7.4.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        specifier: ^7.5.0
+        version: 7.5.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       redux:
         specifier: 5.0.1
         version: 5.0.1
@@ -2870,8 +2870,8 @@ packages:
     resolution: {integrity: sha512-jCvmsr+1IUSMUyzOkRcvnVbX3ZYC6g9TDrDbFuFmRDq7PD4yaGbLKNQL6k2jnArV8hjYxh7hVhAZB6s9HDGpZA==}
     engines: {node: '>=0.10.0'}
 
-  react-router@7.4.1:
-    resolution: {integrity: sha512-Vmizn9ZNzxfh3cumddqv3kLOKvc7AskUT0dC1prTabhiEi0U4A33LmkDOJ79tXaeSqCqMBXBU/ySX88W85+EUg==}
+  react-router@7.5.0:
+    resolution: {integrity: sha512-estOHrRlDMKdlQa6Mj32gIks4J+AxNsYoE0DbTTxiMy2mPzZuWSDU+N85/r1IlNR7kGfznF3VCUlvc5IUO+B9g==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       react: '>=18'
@@ -3193,9 +3193,6 @@ packages:
   synckit@0.11.1:
     resolution: {integrity: sha512-fWZqNBZNNFp/7mTUy1fSsydhKsAKJ+u90Nk7kOK5Gcq9vObaqLBLjWFDBkyVU9Vvc6Y71VbOevMuGhqv02bT+Q==}
     engines: {node: ^14.18.0 || >=16.0.0}
-
-  tailwindcss@4.1.1:
-    resolution: {integrity: sha512-QNbdmeS979Efzim2g/bEvfuh+fTcIdp1y7gA+sb6OYSW74rt7Cr7M78AKdf6HqWT3d5AiTb7SwTT3sLQxr4/qw==}
 
   tailwindcss@4.1.2:
     resolution: {integrity: sha512-VCsK+fitIbQF7JlxXaibFhxrPq4E2hDcG8apzHUdWFMCQWD8uLdlHg4iSkZ53cgLCCcZ+FZK7vG8VjvLcnBgKw==}
@@ -6262,7 +6259,7 @@ snapshots:
 
   react-refresh@0.14.2: {}
 
-  react-router@7.4.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+  react-router@7.5.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
     dependencies:
       '@types/cookie': 0.6.0
       cookie: 1.0.2
@@ -6602,8 +6599,6 @@ snapshots:
     dependencies:
       '@pkgr/core': 0.2.0
       tslib: 2.8.1
-
-  tailwindcss@4.1.1: {}
 
   tailwindcss@4.1.2: {}
 
