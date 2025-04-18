@@ -27,8 +27,8 @@ importers:
         specifier: ^9.2.0
         version: 9.2.0(@types/react@18.2.79)(react@18.2.0)(redux@5.0.1)
       react-router:
-        specifier: ^7.5.0
-        version: 7.5.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        specifier: ^7.5.1
+        version: 7.5.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       redux:
         specifier: 5.0.1
         version: 5.0.1
@@ -2851,8 +2851,8 @@ packages:
     resolution: {integrity: sha512-z6F7K9bV85EfseRCp2bzrpyQ0Gkw1uLoCel9XBVWPg/TjRj94SkJzUTGfOa4bs7iJvBWtQG0Wq7wnI0syw3EBQ==}
     engines: {node: '>=0.10.0'}
 
-  react-router@7.5.0:
-    resolution: {integrity: sha512-estOHrRlDMKdlQa6Mj32gIks4J+AxNsYoE0DbTTxiMy2mPzZuWSDU+N85/r1IlNR7kGfznF3VCUlvc5IUO+B9g==}
+  react-router@7.5.1:
+    resolution: {integrity: sha512-/jjU3fcYNd2bwz9Q0xt5TwyiyoO8XjSEFXJY4O/lMAlkGTHWuHRAbR9Etik+lSDqMC7A7mz3UlXzgYT6Vl58sA==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       react: '>=18'
@@ -6211,9 +6211,8 @@ snapshots:
 
   react-refresh@0.17.0: {}
 
-  react-router@7.5.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+  react-router@7.5.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
     dependencies:
-      '@types/cookie': 0.6.0
       cookie: 1.0.2
       react: 18.2.0
       set-cookie-parser: 2.7.1
