@@ -98,7 +98,7 @@ importers:
         version: 10.1.2(eslint@8.57.0)
       eslint-config-ts-prefixer:
         specifier: ^1.14.1
-        version: 1.14.1(@typescript-eslint/eslint-plugin@7.0.0(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.8.3))(eslint@8.57.0)(typescript@5.8.3))(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.8.3))(eslint-import-resolver-typescript@3.8.7)(eslint-plugin-import@2.31.0)(eslint-plugin-prettier@5.2.6(@types/eslint@8.56.7)(eslint-config-prettier@10.1.2(eslint@8.57.0))(eslint@8.57.0)(prettier@3.5.3))(eslint@8.57.0)(prettier@3.5.3)(typescript@5.8.3)
+        version: 1.14.1(@typescript-eslint/eslint-plugin@7.0.0(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.8.3))(eslint@8.57.0)(typescript@5.8.3))(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.8.3))(eslint-import-resolver-typescript@3.8.7)(eslint-plugin-import@2.31.0)(eslint-plugin-prettier@5.3.1(@types/eslint@8.56.7)(eslint-config-prettier@10.1.2(eslint@8.57.0))(eslint@8.57.0)(prettier@3.5.3))(eslint@8.57.0)(prettier@3.5.3)(typescript@5.8.3)
       eslint-config-typescript:
         specifier: ^3.0.0
         version: 3.0.0(@typescript-eslint/eslint-plugin@7.0.0(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.8.3))(eslint@8.57.0)(typescript@5.8.3))(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.8.3))(eslint@8.57.0)(typescript@5.8.3)
@@ -112,8 +112,8 @@ importers:
         specifier: ^6.10.2
         version: 6.10.2(eslint@8.57.0)
       eslint-plugin-prettier:
-        specifier: ^5.2.6
-        version: 5.2.6(@types/eslint@8.56.7)(eslint-config-prettier@10.1.2(eslint@8.57.0))(eslint@8.57.0)(prettier@3.5.3)
+        specifier: ^5.3.1
+        version: 5.3.1(@types/eslint@8.56.7)(eslint-config-prettier@10.1.2(eslint@8.57.0))(eslint@8.57.0)(prettier@3.5.3)
       eslint-plugin-react-hooks:
         specifier: ^5.2.0
         version: 5.2.0(eslint@8.57.0)
@@ -655,8 +655,8 @@ packages:
   '@open-draft/until@2.1.0':
     resolution: {integrity: sha512-U69T3ItWHvLwGg5eJ0n3I62nWuE6ilHlmz7zM0npLBRvPRd7e6NYmg54vvRtP5mZG7kZqZCFVdsTWo7BPtBujg==}
 
-  '@pkgr/core@0.2.0':
-    resolution: {integrity: sha512-vsJDAkYR6qCPu+ioGScGiMYR7LvZYIXh/dlQeviqoTWNCVfKTLYD/LkNWH4Mxsv2a5vpIRc77FN5DnmK1eBggQ==}
+  '@pkgr/core@0.2.4':
+    resolution: {integrity: sha512-ROFF39F6ZrnzSUEmQQZUar0Jt4xVoP9WnDRdWwF4NNcXs3xBTLgBUDoOwW141y1jP+S8nahIbdxbFC7IShw9Iw==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
 
   '@reduxjs/toolkit@2.7.0':
@@ -1776,8 +1776,8 @@ packages:
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9
 
-  eslint-plugin-prettier@5.2.6:
-    resolution: {integrity: sha512-mUcf7QG2Tjk7H055Jk0lGBjbgDnfrvqjhXh9t2xLMSCjZVcw9Rb1V6sVNXO0th3jgeO7zllWPTNRil3JW94TnQ==}
+  eslint-plugin-prettier@5.3.1:
+    resolution: {integrity: sha512-vad9VWgEm9xaVXRNmb4aeOt0PWDc61IAdzghkbYQ2wavgax148iKoX1rNJcgkBGCipzLzOnHYVgL7xudM9yccQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       '@types/eslint': '>=8.0.0'
@@ -3172,8 +3172,8 @@ packages:
   symbol-tree@3.2.4:
     resolution: {integrity: sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw==}
 
-  synckit@0.11.1:
-    resolution: {integrity: sha512-fWZqNBZNNFp/7mTUy1fSsydhKsAKJ+u90Nk7kOK5Gcq9vObaqLBLjWFDBkyVU9Vvc6Y71VbOevMuGhqv02bT+Q==}
+  synckit@0.11.4:
+    resolution: {integrity: sha512-Q/XQKRaJiLiFIBNN+mndW7S/RHxvwzuZS6ZwmRzUBqJBv/5QIKCEwkBC8GBf8EQJKYnaFs0wOZbKTXBPj8L9oQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
 
   tailwindcss@4.1.5:
@@ -4042,7 +4042,7 @@ snapshots:
 
   '@open-draft/until@2.1.0': {}
 
-  '@pkgr/core@0.2.0': {}
+  '@pkgr/core@0.2.4': {}
 
   '@reduxjs/toolkit@2.7.0(react-redux@9.2.0(@types/react@18.2.79)(react@18.2.0)(redux@5.0.1))(react@18.2.0)':
     dependencies:
@@ -5113,7 +5113,7 @@ snapshots:
     dependencies:
       eslint: 8.57.0
 
-  eslint-config-ts-prefixer@1.14.1(@typescript-eslint/eslint-plugin@7.0.0(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.8.3))(eslint@8.57.0)(typescript@5.8.3))(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.8.3))(eslint-import-resolver-typescript@3.8.7)(eslint-plugin-import@2.31.0)(eslint-plugin-prettier@5.2.6(@types/eslint@8.56.7)(eslint-config-prettier@10.1.2(eslint@8.57.0))(eslint@8.57.0)(prettier@3.5.3))(eslint@8.57.0)(prettier@3.5.3)(typescript@5.8.3):
+  eslint-config-ts-prefixer@1.14.1(@typescript-eslint/eslint-plugin@7.0.0(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.8.3))(eslint@8.57.0)(typescript@5.8.3))(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.8.3))(eslint-import-resolver-typescript@3.8.7)(eslint-plugin-import@2.31.0)(eslint-plugin-prettier@5.3.1(@types/eslint@8.56.7)(eslint-config-prettier@10.1.2(eslint@8.57.0))(eslint@8.57.0)(prettier@3.5.3))(eslint@8.57.0)(prettier@3.5.3)(typescript@5.8.3):
     dependencies:
       '@inquirer/prompts': 5.3.8
       '@typescript-eslint/eslint-plugin': 7.0.0(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.8.3))(eslint@8.57.0)(typescript@5.8.3)
@@ -5122,7 +5122,7 @@ snapshots:
       eslint: 8.57.0
       eslint-import-resolver-typescript: 3.8.7(eslint-plugin-import@2.31.0)(eslint@8.57.0)
       eslint-plugin-import: 2.31.0(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.8.3))(eslint-import-resolver-typescript@3.8.7)(eslint@8.57.0)
-      eslint-plugin-prettier: 5.2.6(@types/eslint@8.56.7)(eslint-config-prettier@10.1.2(eslint@8.57.0))(eslint@8.57.0)(prettier@3.5.3)
+      eslint-plugin-prettier: 5.3.1(@types/eslint@8.56.7)(eslint-config-prettier@10.1.2(eslint@8.57.0))(eslint@8.57.0)(prettier@3.5.3)
       inquirer: 10.1.8
       prettier: 3.5.3
       typescript: 5.8.3
@@ -5216,12 +5216,12 @@ snapshots:
       safe-regex-test: 1.0.3
       string.prototype.includes: 2.0.1
 
-  eslint-plugin-prettier@5.2.6(@types/eslint@8.56.7)(eslint-config-prettier@10.1.2(eslint@8.57.0))(eslint@8.57.0)(prettier@3.5.3):
+  eslint-plugin-prettier@5.3.1(@types/eslint@8.56.7)(eslint-config-prettier@10.1.2(eslint@8.57.0))(eslint@8.57.0)(prettier@3.5.3):
     dependencies:
       eslint: 8.57.0
       prettier: 3.5.3
       prettier-linter-helpers: 1.0.0
-      synckit: 0.11.1
+      synckit: 0.11.4
     optionalDependencies:
       '@types/eslint': 8.56.7
       eslint-config-prettier: 10.1.2(eslint@8.57.0)
@@ -6551,9 +6551,9 @@ snapshots:
 
   symbol-tree@3.2.4: {}
 
-  synckit@0.11.1:
+  synckit@0.11.4:
     dependencies:
-      '@pkgr/core': 0.2.0
+      '@pkgr/core': 0.2.4
       tslib: 2.8.1
 
   tailwindcss@4.1.5: {}
