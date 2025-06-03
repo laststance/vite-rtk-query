@@ -77,7 +77,7 @@
     "tailwindcss": "^4.1.7",
     "typescript": "^5.8.3",
     "vite": "^6.3.5",
-    "vitest": "^3.1.4"
+    "vitest": "^3.2.0"
   },
   "volta": {
     "node": "22.16.0"
