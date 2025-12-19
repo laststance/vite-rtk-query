@@ -25,7 +25,6 @@
     "prettier": "prettier --ignore-unknown --write .",
     "clean": "rimraf node_modules pnpm-lock.yaml dist",
     "validate": "./scripts/validate",
-    "remove:tailwind": "node ./scripts/remove_tailwind",
     "prepare": "husky"
   },
   "dependencies": {
