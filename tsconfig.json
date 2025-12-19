@@ -22,7 +22,7 @@
     "vite.config.ts",
     "vitest.config.ts",
     "postcss.config.js",
-    ".eslintrc.cjs",
+    "eslint.config.mjs",
     "./src",
     "./@types"
   ]
