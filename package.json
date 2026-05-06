@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "2.11.2",
-    "axios": "^1.13.2",
+    "axios": "^1.16.0",
     "clsx": "^2.1.1",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
