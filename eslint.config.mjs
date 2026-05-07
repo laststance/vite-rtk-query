@@ -16,6 +16,7 @@ export default [
     ignores: [
       '.vscode/**',
       '.github/**',
+      'public/**',
       // Note: node_modules, build, dist, .git, .idea are already ignored by ts-prefixer
     ],
   },
