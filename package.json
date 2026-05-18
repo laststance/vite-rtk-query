@@ -28,7 +28,7 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "@reduxjs/toolkit": "2.11.2",
+    "@reduxjs/toolkit": "2.12.0",
     "axios": "^1.16.1",
     "clsx": "^2.1.1",
     "react": "^19.2.3",
