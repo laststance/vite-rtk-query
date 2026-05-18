@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@reduxjs/toolkit':
         specifier: 2.11.2
-        version: 2.11.2(react-redux@9.2.0(@types/react@19.2.7)(react@19.2.3)(redux@5.0.1))(react@19.2.3)
+        version: 2.11.2(react-redux@9.3.0(@types/react@19.2.7)(react@19.2.3)(redux@5.0.1))(react@19.2.3)
       axios:
         specifier: ^1.16.1
         version: 1.16.1
@@ -24,8 +24,8 @@ importers:
         specifier: ^19.2.3
         version: 19.2.3(react@19.2.3)
       react-redux:
-        specifier: ^9.2.0
-        version: 9.2.0(@types/react@19.2.7)(react@19.2.3)(redux@5.0.1)
+        specifier: ^9.3.0
+        version: 9.3.0(@types/react@19.2.7)(react@19.2.3)(redux@5.0.1)
       react-router:
         specifier: ^7.15.1
         version: 7.15.1(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
@@ -2815,8 +2815,8 @@ packages:
   react-is@17.0.2:
     resolution: {integrity: sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==}
 
-  react-redux@9.2.0:
-    resolution: {integrity: sha512-ROY9fvHhwOD9ySfrF0wmvu//bKCQ6AeZZq1nJNtbDC+kk5DuSuNX/n6YWYF/SYy7bSba4D4FSz8DJeKY/S/r+g==}
+  react-redux@9.3.0:
+    resolution: {integrity: sha512-KQopgqFo/p/fgmAs5qz6p5RWaNAzq40WAu7fJIXnQpYxFPbJYtsJPWvGeF2rOBaY/kEuV77AVsX8TsQzKm+A/g==}
     peerDependencies:
       '@types/react': ^18.2.25 || ^19
       react: ^18.0 || ^19
@@ -3929,7 +3929,7 @@ snapshots:
 
   '@package-json/types@0.0.12': {}
 
-  '@reduxjs/toolkit@2.11.2(react-redux@9.2.0(@types/react@19.2.7)(react@19.2.3)(redux@5.0.1))(react@19.2.3)':
+  '@reduxjs/toolkit@2.11.2(react-redux@9.3.0(@types/react@19.2.7)(react@19.2.3)(redux@5.0.1))(react@19.2.3)':
     dependencies:
       '@standard-schema/spec': 1.1.0
       '@standard-schema/utils': 0.3.0
@@ -3939,7 +3939,7 @@ snapshots:
       reselect: 5.1.1
     optionalDependencies:
       react: 19.2.3
-      react-redux: 9.2.0(@types/react@19.2.7)(react@19.2.3)(redux@5.0.1)
+      react-redux: 9.3.0(@types/react@19.2.7)(react@19.2.3)(redux@5.0.1)
 
   '@rolldown/binding-android-arm64@1.0.1':
     optional: true
@@ -6211,7 +6211,7 @@ snapshots:
 
   react-is@17.0.2: {}
 
-  react-redux@9.2.0(@types/react@19.2.7)(react@19.2.3)(redux@5.0.1):
+  react-redux@9.3.0(@types/react@19.2.7)(react@19.2.3)(redux@5.0.1):
     dependencies:
       '@types/use-sync-external-store': 0.0.6
       react: 19.2.3
