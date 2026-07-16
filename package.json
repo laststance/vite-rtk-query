@@ -68,7 +68,7 @@
     "node-fetch": "^3.3.2",
     "postcss": "^8.5.19",
     "prettier": "^3.9.4",
-    "prettier-plugin-tailwindcss": "^0.8.0",
+    "prettier-plugin-tailwindcss": "^0.8.1",
     "serve": "^14.2.6",
     "tailwindcss": "^4.3.2",
     "typescript": "^5.9.3",
