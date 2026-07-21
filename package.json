@@ -67,7 +67,7 @@
     "msw": "^2.15.0",
     "node-fetch": "^3.3.2",
     "postcss": "^8.5.20",
-    "prettier": "^3.9.4",
+    "prettier": "^3.9.6",
     "prettier-plugin-tailwindcss": "^0.8.1",
     "serve": "^14.2.6",
     "tailwindcss": "^4.3.3",
