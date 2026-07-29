@@ -106,8 +106,8 @@ importers:
         specifier: ^9.1.7
         version: 9.1.7
       jsdom:
-        specifier: ^30.0.0
-        version: 30.0.0
+        specifier: ^30.0.1
+        version: 30.0.1
       lint-staged:
         specifier: ^17.2.0
         version: 17.2.0
@@ -140,7 +140,7 @@ importers:
         version: 8.1.5(@types/node@26.1.2)(esbuild@0.27.2)(jiti@2.7.0)(yaml@2.9.0)
       vitest:
         specifier: ^4.1.10
-        version: 4.1.10(@types/node@26.1.2)(jsdom@30.0.0)(msw@2.15.0(@types/node@26.1.2)(typescript@5.9.3))(vite@8.1.5(@types/node@26.1.2)(esbuild@0.27.2)(jiti@2.7.0)(yaml@2.9.0))
+        version: 4.1.10(@types/node@26.1.2)(jsdom@30.0.1)(msw@2.15.0(@types/node@26.1.2)(typescript@5.9.3))(vite@8.1.5(@types/node@26.1.2)(esbuild@0.27.2)(jiti@2.7.0)(yaml@2.9.0))
 
 packages:
 
@@ -2312,8 +2312,8 @@ packages:
     resolution: {integrity: sha512-qQKT4zQxXl8lLwBtHMWwaTcGfFOZviOJet3Oy/xmGk2gZH677CJM9EvtfdSkgWcATZhj/55JZ0rmy3myCT5lsA==}
     hasBin: true
 
-  jsdom@30.0.0:
-    resolution: {integrity: sha512-JQHfRGmmKmaZoUAvIgff5jjG/0SzTQlGz8c7t72KzBzo8ZULEjAjnYE0sNwBOUA4QtWwYE2xoYitg8NFsmiYxA==}
+  jsdom@30.0.1:
+    resolution: {integrity: sha512-52v7mUVUfNQVYYqE1lcdaymWL0njO7lTLUog6ZvW2U5KsbiLk/GnZlVJ+qx0xfNJZ6Gn+KSpPNE52vurbxZwrA==}
     engines: {node: ^22.22.2 || ^24.15.0 || >=26.0.0}
     peerDependencies:
       canvas: ^3.2.3
@@ -5827,7 +5827,7 @@ snapshots:
     dependencies:
       argparse: 2.0.1
 
-  jsdom@30.0.0:
+  jsdom@30.0.1:
     dependencies:
       '@asamuzakjp/css-color': 6.0.5
       '@asamuzakjp/dom-selector': 8.3.0
@@ -6821,7 +6821,7 @@ snapshots:
       jiti: 2.7.0
       yaml: 2.9.0
 
-  vitest@4.1.10(@types/node@26.1.2)(jsdom@30.0.0)(msw@2.15.0(@types/node@26.1.2)(typescript@5.9.3))(vite@8.1.5(@types/node@26.1.2)(esbuild@0.27.2)(jiti@2.7.0)(yaml@2.9.0)):
+  vitest@4.1.10(@types/node@26.1.2)(jsdom@30.0.1)(msw@2.15.0(@types/node@26.1.2)(typescript@5.9.3))(vite@8.1.5(@types/node@26.1.2)(esbuild@0.27.2)(jiti@2.7.0)(yaml@2.9.0)):
     dependencies:
       '@vitest/expect': 4.1.10
       '@vitest/mocker': 4.1.10(msw@2.15.0(@types/node@26.1.2)(typescript@5.9.3))(vite@8.1.5(@types/node@26.1.2)(esbuild@0.27.2)(jiti@2.7.0)(yaml@2.9.0))
@@ -6845,7 +6845,7 @@ snapshots:
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@types/node': 26.1.2
-      jsdom: 30.0.0
+      jsdom: 30.0.1
     transitivePeerDependencies:
       - msw
 
