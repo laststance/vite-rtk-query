@@ -58,7 +58,7 @@
     "all-contributors-cli": "^6.26.1",
     "concurrently": "^10.0.5",
     "eslint": "^9.39.2",
-    "eslint-config-ts-prefixer": "^4.2.1",
+    "eslint-config-ts-prefixer": "^4.3.0",
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-react-hooks": "^7.1.1",
     "husky": "^9.1.7",
