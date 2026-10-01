@@ -53,7 +53,6 @@ const Spinner: React.FC<React.PropsWithChildren<SpinnerProps>> = memo(
       </>
     )
   },
-  () => true,
 )
 Spinner.displayName = 'Spinner'
 
